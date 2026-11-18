@@ -1,0 +1,36 @@
+{
+  "slug": "traverse-memory-graph",
+  "name": "traverseMemoryGraph",
+  "description": "Walk the graph of connected memories around a subject instead of searching for words. A search answers what shares words with your query; this answers what is CONNECTED to something. The brain picks the best start node from your subject and follows typed edges out from it: semantic (facts that mean similar things), temporal (what came before or after), causal (what led to what), entity (a person, place or organisation and what they are involved in), or composite, which fuses all of them.",
+  "category": "memory",
+  "parameters": [
+    {
+      "name": "subject",
+      "type": "string",
+      "required": true,
+      "description": "What to walk around, in plain words: a person, project, organisation, place or idea. The brain matches it against the labels and content it holds to choose where to start."
+    },
+    {
+      "name": "edgeType",
+      "type": "string",
+      "required": false,
+      "description": "Which relationship to follow: semantic, temporal, causal, entity, or composite for all of them. Default composite."
+    },
+    {
+      "name": "depth",
+      "type": "integer",
+      "required": false,
+      "description": "How many hops out from the start node, 1 to 6. Default 3."
+    },
+    {
+      "name": "maxNodes",
+      "type": "integer",
+      "required": false,
+      "description": "Cap on how many memories the walk may return, 1 to 200. Default 40."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

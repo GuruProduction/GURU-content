@@ -1,12 +1,12 @@
 {
-  "bundle_version": "b85fce60586d2",
+  "bundle_version": "bb71f61d2759b",
   "counts": {
     "prompts": 85,
     "skills": 1,
-    "tools": 390,
+    "tools": 391,
     "agents": 20,
     "packs": 1,
-    "total": 497
+    "total": 498
   },
   "kinds": {
     "prompts": [
@@ -3399,6 +3399,14 @@
         "bytes": 698
       },
       {
+        "slug": "traverse-memory-graph",
+        "name": "traverseMemoryGraph",
+        "file": "tools/traverse-memory-graph.json",
+        "version": 1,
+        "sha256": "0103e02afc216bd191aa85065adcb0aeac0a8b04b65d7260eb354747f67ebd03",
+        "bytes": 1638
+      },
+      {
         "slug": "trelloboards",
         "name": "trelloBoards",
         "file": "tools/trelloboards.json",
@@ -3845,8 +3853,8 @@
         "name": "Concierge",
         "file": "agents/concierge.md",
         "version": null,
-        "sha256": "cd70a99e1fdba3b70ff98c57d4c8e0fc7dd7fcdc9392366131f24601a56a8cf5",
-        "bytes": 491
+        "sha256": "9449939b740da609a797ad5a830dcaed3281508baaa68e79d9e049e9c7a37a2c",
+        "bytes": 12112
       },
       {
         "slug": "deep-thinker",
@@ -3996,7 +4004,7 @@
       }
     ]
   },
-  "bundle_sha256": "85fce60586d2ead7099c4a8352d39e1027a2e5e2bbc9b89aa8cd5d97bc5ad7ed",
+  "bundle_sha256": "b71f61d2759b0ca0ad6d24a347359696dbddad3bb087d1c9c81e918e7ec1d3a4",
   "items": [
     {
       "kind": "agents",
@@ -4014,7 +4022,7 @@
       "kind": "agents",
       "slug": "concierge",
       "version": 1,
-      "sha256": "135a40e6e94886f42b4705368926db35b8e50c19e699609c2640fcf165a5dc39"
+      "sha256": "a3a449766bfb596e4e9810f4f551b6910d144e675333f4a01854fb1d640b389c"
     },
     {
       "kind": "agents",
@@ -6664,6 +6672,12 @@
     },
     {
       "kind": "tools",
+      "slug": "traverse-memory-graph",
+      "version": 1,
+      "sha256": "efde4f041a495efe29987a8c8f3fb2b4c27820515f21558e469014069a2d329c"
+    },
+    {
+      "kind": "tools",
       "slug": "trelloboards",
       "version": 1,
       "sha256": "dabae08a6940acab0e4e4323c235458d79f3364774749630b7d79733329dc6d4"
@@ -6983,6 +6997,6 @@
   ],
   "algo": "ed25519",
   "key_id": "unus-lumen-feed-1",
-  "signed_material_sha256": "85fce60586d2ead7099c4a8352d39e1027a2e5e2bbc9b89aa8cd5d97bc5ad7ed",
-  "generated_at": "2026-11-18T14:48:53.409Z"
+  "signed_material_sha256": "b71f61d2759b0ca0ad6d24a347359696dbddad3bb087d1c9c81e918e7ec1d3a4",
+  "generated_at": "2026-11-18T15:19:54.269Z"
 }
