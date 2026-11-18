@@ -1,12 +1,12 @@
 {
-  "bundle_version": "bb71f61d2759b",
+  "bundle_version": "bb0d9579620d3",
   "counts": {
     "prompts": 85,
     "skills": 1,
     "tools": 391,
-    "agents": 20,
+    "agents": 21,
     "packs": 1,
-    "total": 498
+    "total": 499
   },
   "kinds": {
     "prompts": [
@@ -3833,6 +3833,14 @@
     ],
     "agents": [
       {
+        "slug": "architect",
+        "name": "Architect",
+        "file": "agents/architect.md",
+        "version": null,
+        "sha256": "df7c2af00e4494511b9d4b42c3dabf5c32c8a13a945cbe6e12e8a8638a75a3a2",
+        "bytes": 13321
+      },
+      {
         "slug": "archivist",
         "name": "Archivist",
         "file": "agents/archivist.md",
@@ -3845,8 +3853,8 @@
         "name": "Code Engineer",
         "file": "agents/code-engineer.md",
         "version": null,
-        "sha256": "6c7f1a7d02e26105d20fb2c86d2bbb2acb490e9b245882014b68f93c33d69075",
-        "bytes": 494
+        "sha256": "1b9c7d511b34e5290661e81b5bafacbdb73cefa367f6280d6e25573686109ec1",
+        "bytes": 9849
       },
       {
         "slug": "concierge",
@@ -4004,8 +4012,14 @@
       }
     ]
   },
-  "bundle_sha256": "b71f61d2759b0ca0ad6d24a347359696dbddad3bb087d1c9c81e918e7ec1d3a4",
+  "bundle_sha256": "b0d9579620d3c130b1eaa9ed181a3ea6f5e88254374e3019ac888c026db16080",
   "items": [
+    {
+      "kind": "agents",
+      "slug": "architect",
+      "version": 1,
+      "sha256": "abc469255ef8240bbd990b72ac0772a58698dcc312dd2dd53963072a15be3cec"
+    },
     {
       "kind": "agents",
       "slug": "archivist",
@@ -4016,7 +4030,7 @@
       "kind": "agents",
       "slug": "code-engineer",
       "version": 1,
-      "sha256": "8de16eac0aef44a74ef0b907d402ca0d02a1773be4acdc3c25d86cb206dc86a0"
+      "sha256": "ffbbcd2907e40e91facf0eba64997a1ee11fb4eb73e29efc44fb42adf1787c99"
     },
     {
       "kind": "agents",
@@ -6997,6 +7011,6 @@
   ],
   "algo": "ed25519",
   "key_id": "unus-lumen-feed-1",
-  "signed_material_sha256": "b71f61d2759b0ca0ad6d24a347359696dbddad3bb087d1c9c81e918e7ec1d3a4",
-  "generated_at": "2026-11-18T15:19:54.269Z"
+  "signed_material_sha256": "b0d9579620d3c130b1eaa9ed181a3ea6f5e88254374e3019ac888c026db16080",
+  "generated_at": "2026-11-18T16:59:51.467Z"
 }
