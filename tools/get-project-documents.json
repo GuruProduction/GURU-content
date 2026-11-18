@@ -1,0 +1,19 @@
+{
+  "slug": "get-project-documents",
+  "name": "get_project_documents",
+  "description": "Get all documents for a project.",
+  "category": "project",
+  "parameters": [
+    {
+      "name": "projectId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The project ID"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

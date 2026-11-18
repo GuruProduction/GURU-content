@@ -1,0 +1,19 @@
+{
+  "slug": "fsdeletefile",
+  "name": "fsDeleteFile",
+  "description": "Delete a file or directory. Use with caution — this is permanent.",
+  "category": "filesystem",
+  "parameters": [
+    {
+      "name": "path",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Path to delete"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

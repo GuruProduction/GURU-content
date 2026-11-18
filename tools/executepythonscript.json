@@ -1,0 +1,19 @@
+{
+  "slug": "executepythonscript",
+  "name": "executePythonScript",
+  "description": "Execute a Python script. Python gives you full scripting capability.",
+  "category": "shell",
+  "parameters": [
+    {
+      "name": "script",
+      "type": "Script",
+      "required": true,
+      "enumValues": null,
+      "description": "The Python script to execute"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "server",
+  "code": "import json, os, sys\nargs = json.loads(os.environ.get(\"GURU_TOOL_ARGS\", \"{}\"))\nscript = args.get(\"script\", \"\")\nif not script:\n    print(json.dumps({\"error\": \"No script provided\"}))\n    sys.exit(1)\ntry:\n    exec(script)\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))\n    sys.exit(1)",
+  "checksum": "c81f05003b004b4545f40bc28336dc3995a88d0106f5a279a9adc3800f0c2cae"
+}

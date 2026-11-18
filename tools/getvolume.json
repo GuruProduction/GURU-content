@@ -1,0 +1,19 @@
+{
+  "slug": "getvolume",
+  "name": "getVolume",
+  "description": "Get the current volume level for an audio stream.",
+  "category": "sound",
+  "parameters": [
+    {
+      "name": "stream",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Stream: alarm, music, notification, ring, system, voice_call"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

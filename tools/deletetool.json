@@ -1,0 +1,19 @@
+{
+  "slug": "deletetool",
+  "name": "deleteTool",
+  "description": "Delete a tool you've defined. This cannot be undone.",
+  "category": "meta",
+  "parameters": [
+    {
+      "name": "toolId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Tool ID"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

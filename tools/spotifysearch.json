@@ -1,0 +1,26 @@
+{
+  "slug": "spotifysearch",
+  "name": "spotifySearch",
+  "description": "Search for tracks, artists, or albums on Spotify. Returns search results with track names, artists, and URIs.",
+  "category": "media",
+  "parameters": [
+    {
+      "name": "query",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Search query - song name, artist, album, or any combination"
+    },
+    {
+      "name": "limit",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Result limit. Default 10."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

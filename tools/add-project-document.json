@@ -1,0 +1,47 @@
+{
+  "slug": "add-project-document",
+  "name": "add_project_document",
+  "description": "Add a document to a project.",
+  "category": "project",
+  "parameters": [
+    {
+      "name": "projectId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The project ID"
+    },
+    {
+      "name": "title",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Document title"
+    },
+    {
+      "name": "content",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Document content"
+    },
+    {
+      "name": "type",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Document type"
+    },
+    {
+      "name": "sourceUri",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Original file URI"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

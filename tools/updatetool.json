@@ -1,0 +1,40 @@
+{
+  "slug": "updatetool",
+  "name": "updateTool",
+  "description": "Update a tool you've defined. Composition tools are auto-approved on update.",
+  "category": "meta",
+  "parameters": [
+    {
+      "name": "toolId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Tool ID"
+    },
+    {
+      "name": "displayName",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New display name"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New description"
+    },
+    {
+      "name": "implementation",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New implementation JSON"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

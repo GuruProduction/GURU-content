@@ -1,0 +1,26 @@
+{
+  "slug": "searchmemoryfacts",
+  "name": "searchMemoryFacts",
+  "description": "Search your memory facts by text. Returns every fact containing the search term. No limits.",
+  "category": "memory",
+  "parameters": [
+    {
+      "name": "query",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Search query text"
+    },
+    {
+      "name": "category",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Optional category filter"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

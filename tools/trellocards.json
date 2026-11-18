@@ -1,0 +1,19 @@
+{
+  "slug": "trellocards",
+  "name": "trelloCards",
+  "description": "List all cards in a Trello list through Tor.",
+  "category": "productivity",
+  "parameters": [
+    {
+      "name": "listId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "List ID"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

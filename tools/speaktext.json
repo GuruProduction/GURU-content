@@ -1,0 +1,33 @@
+{
+  "slug": "speaktext",
+  "name": "speakText",
+  "description": "Speak text aloud using text-to-speech.",
+  "category": "sound",
+  "parameters": [
+    {
+      "name": "text",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Text to speak"
+    },
+    {
+      "name": "rate",
+      "type": "Float",
+      "required": false,
+      "enumValues": null,
+      "description": "Rate 0.5-2.0"
+    },
+    {
+      "name": "pitch",
+      "type": "Float",
+      "required": false,
+      "enumValues": null,
+      "description": "Pitch 0.5-2.0"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

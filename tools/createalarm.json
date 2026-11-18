@@ -1,0 +1,28 @@
+{
+  "slug": "createalarm",
+  "name": "createAlarm",
+  "description": "Create an alarm for a task. The alarm will notify the user at the specified time. Returns the alarm ID, or null if exact alarms are not permitted on this device.",
+  "category": "alarm",
+  "parameters": [
+    {
+      "name": "currentAlarmId",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "The existing alarm ID to update, or null to create a new alarm"
+    },
+    {
+      "name": "dueDate",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "The time for the alarm in epoch milliseconds. Use formatDate to convert if needed."
+    }
+  ],
+  "permissions": [
+    "android.permission.SCHEDULE_EXACT_ALARM"
+  ],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

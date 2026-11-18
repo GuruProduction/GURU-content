@@ -1,0 +1,26 @@
+{
+  "slug": "resolvedownloadurl",
+  "name": "resolveDownloadUrl",
+  "description": "Resolve a JavaScript-generated download URL from a page. Loads the page in WebView with JS enabled.",
+  "category": "http",
+  "parameters": [
+    {
+      "name": "url",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Page URL"
+    },
+    {
+      "name": "headers",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "JSON headers"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

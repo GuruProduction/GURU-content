@@ -1,0 +1,26 @@
+{
+  "slug": "hueactivatescene",
+  "name": "hueActivateScene",
+  "description": "Activate a Philips Hue scene in a room.",
+  "category": "smart-home",
+  "parameters": [
+    {
+      "name": "scene",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Scene name"
+    },
+    {
+      "name": "room",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Room name to apply the scene to"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

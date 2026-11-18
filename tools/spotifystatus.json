@@ -1,0 +1,11 @@
+{
+  "slug": "spotifystatus",
+  "name": "spotifyStatus",
+  "description": "Get current Spotify playback status - what's playing, device, progress. Returns track info, artist, album, and playback state.",
+  "category": "media",
+  "parameters": [],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "createnote",
+  "name": "createNote",
+  "description": "Create a note. Returns ID.",
+  "category": "notes",
+  "parameters": [
+    {
+      "name": "title",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Note title"
+    },
+    {
+      "name": "content",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Note content"
+    },
+    {
+      "name": "folderId",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Optional Folder ID. If null, the note will be in the root folder."
+    },
+    {
+      "name": "pinned",
+      "type": "Boolean",
+      "required": false,
+      "enumValues": null,
+      "description": "Whether the note is pinned"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

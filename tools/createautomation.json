@@ -1,0 +1,54 @@
+{
+  "slug": "createautomation",
+  "name": "createAutomation",
+  "description": "Create a reusable automation - a named sequence of tool calls.",
+  "category": "automation",
+  "parameters": [
+    {
+      "name": "name",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Automation name"
+    },
+    {
+      "name": "displayName",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Display name"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Description"
+    },
+    {
+      "name": "trigger",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "MANUAL, SCHEDULED, or EVENT"
+    },
+    {
+      "name": "triggerConfig",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "JSON trigger config"
+    },
+    {
+      "name": "steps",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "JSON array of steps"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

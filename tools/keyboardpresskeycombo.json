@@ -1,0 +1,19 @@
+{
+  "slug": "keyboardpresskeycombo",
+  "name": "keyboardPressKeyCombo",
+  "description": "Simulate a key combination. Use for shortcuts like Ctrl+C, Ctrl+V, etc. Provide comma-separated key codes.",
+  "category": "keyboard",
+  "parameters": [
+    {
+      "name": "keyCodes",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Comma-separated key codes, e.g. 57,31 for Ctrl+A"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

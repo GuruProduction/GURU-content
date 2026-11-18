@@ -1,0 +1,26 @@
+{
+  "slug": "termuxexec",
+  "name": "termuxExec",
+  "description": "Execute a shell command inside the bundled Termux Linux environment.",
+  "category": "termux",
+  "parameters": [
+    {
+      "name": "command",
+      "type": "ShellCommand",
+      "required": true,
+      "enumValues": null,
+      "description": "Command to run"
+    },
+    {
+      "name": "workingDir",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Working directory"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

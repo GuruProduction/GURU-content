@@ -1,0 +1,26 @@
+{
+  "slug": "set-chat-colour",
+  "name": "set_chat_colour",
+  "description": "Set a fixed text colour for chat messages.",
+  "category": "theme",
+  "parameters": [
+    {
+      "name": "colour",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The hex colour value"
+    },
+    {
+      "name": "context",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Which chat context: guru or user"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

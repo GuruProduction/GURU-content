@@ -1,0 +1,19 @@
+{
+  "slug": "adbexec",
+  "name": "adbExec",
+  "description": "Execute an ADB command using the bundled adb binary. Provides full ADB functionality: devices, shell, push, pull, install, uninstall, logcat, reboot, and more. The adb binary is extracted from assets on first use with all required shared libraries.",
+  "category": "shell",
+  "parameters": [
+    {
+      "name": "command",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The ADB command to execute (without the adb prefix). Examples: devices, shell ls /data/local/tmp, install /path/to/app.apk, logcat -d | head 50"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "websearch",
+  "name": "webSearch",
+  "description": "Search the web through Tor for complete privacy. Uses SearXNG (metasearch aggregating multiple engines) as primary, Brave onion, Ahmia, and Torch as fallbacks. All traffic routed through Tor. No API keys, no tracking. Returns results with titles, URLs, snippets, and which engine was used.",
+  "category": "web",
+  "parameters": [
+    {
+      "name": "query",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "What to search for"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

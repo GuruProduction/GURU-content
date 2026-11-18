@@ -1,0 +1,19 @@
+{
+  "slug": "playsoundfile",
+  "name": "playSoundFile",
+  "description": "Play a sound file from the device.",
+  "category": "sound",
+  "parameters": [
+    {
+      "name": "filePath",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Audio file path"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

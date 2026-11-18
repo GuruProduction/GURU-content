@@ -1,0 +1,47 @@
+{
+  "slug": "sshconnect",
+  "name": "sshConnect",
+  "description": "Connect to a remote server via SSH. Returns a connection ID to use with other SSH tools.",
+  "category": "ssh",
+  "parameters": [
+    {
+      "name": "host",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Server hostname or IP address"
+    },
+    {
+      "name": "port",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "SSH port number, default 22"
+    },
+    {
+      "name": "username",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Username for authentication"
+    },
+    {
+      "name": "password",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Password for authentication"
+    },
+    {
+      "name": "keyPath",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Path to private key file"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

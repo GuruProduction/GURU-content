@@ -1,0 +1,19 @@
+{
+  "slug": "sqlgetschema",
+  "name": "sqlGetSchema",
+  "description": "Get the schema of a SQLite database — lists all tables and their columns with types.",
+  "category": "database",
+  "parameters": [
+    {
+      "name": "database",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Database file path"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

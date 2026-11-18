@@ -1,0 +1,26 @@
+{
+  "slug": "camerasnapshot",
+  "name": "cameraSnapshot",
+  "description": "Capture a snapshot from a camera.",
+  "category": "camera",
+  "parameters": [
+    {
+      "name": "camera",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Camera ID or RTSP URL"
+    },
+    {
+      "name": "outputPath",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Output file path (optional)"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

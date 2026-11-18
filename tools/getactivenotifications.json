@@ -1,0 +1,19 @@
+{
+  "slug": "getactivenotifications",
+  "name": "getActiveNotifications",
+  "description": "List all active notifications currently visible in the notification shade. Returns app name, title, text, and timestamp. Use to see what's happening on the device.",
+  "category": "notification",
+  "parameters": [
+    {
+      "name": "limit",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Maximum notifications to return, default 50"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "decompileapk",
+  "name": "decompileApk",
+  "description": "Decompile an APK back to source. Uses bundled jadx, apktool, and dex2jar.",
+  "category": "reverse-engineering",
+  "parameters": [
+    {
+      "name": "apkPath",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "APK path"
+    },
+    {
+      "name": "outputDir",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Output directory"
+    },
+    {
+      "name": "method",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "auto, jadx, apktool, dex2jar, extract_only"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

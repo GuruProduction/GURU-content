@@ -1,0 +1,19 @@
+{
+  "slug": "webbrowserscreenshot",
+  "name": "webBrowserScreenshot",
+  "description": "Capture a screenshot of the currently loaded web page.",
+  "category": "webview",
+  "parameters": [
+    {
+      "name": "savePath",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Optional file path"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

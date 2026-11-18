@@ -1,0 +1,13 @@
+{
+  "slug": "bluetoothscan",
+  "name": "bluetoothScan",
+  "description": "Active discovery of Bluetooth devices in range.",
+  "category": "environment",
+  "parameters": [],
+  "permissions": [
+    "android.permission.BLUETOOTH_SCAN"
+  ],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

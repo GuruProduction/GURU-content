@@ -1,0 +1,26 @@
+{
+  "slug": "encryptaes",
+  "name": "encryptAes",
+  "description": "Encrypt data using AES-256-GCM. Returns Base64-encoded ciphertext with IV prepended.",
+  "category": "encryption",
+  "parameters": [
+    {
+      "name": "data",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Plaintext data"
+    },
+    {
+      "name": "keyBase64",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Base64-encoded 256-bit key"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

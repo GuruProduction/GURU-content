@@ -1,0 +1,19 @@
+{
+  "slug": "disablejob",
+  "name": "disableJob",
+  "description": "I disable a job. I set its enabled flag to false and cancel its WorkManager schedule so it stops firing. The job stays in my database with all its data intact. I can re-enable it any time and it picks up where it left off.",
+  "category": "job",
+  "parameters": [
+    {
+      "name": "name",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "I need the exact job name I used when I created it, or the UUID I returned from createJob. I try the name first, then the UUID. Either one works."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

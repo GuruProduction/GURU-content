@@ -1,0 +1,19 @@
+{
+  "slug": "readmanifest",
+  "name": "readManifest",
+  "description": "Read and parse an AndroidManifest.xml from an APK.",
+  "category": "reverse-engineering",
+  "parameters": [
+    {
+      "name": "apkPath",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "APK path or extracted directory"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "processfile",
+  "name": "processFile",
+  "description": "Process any attached file and extract usable content. Handles images (OCR + metadata), PDFs (text extraction), documents (docx/xlsx/pptx via Python unpacking), audio (metadata), video (metadata), and plain text files. Returns extracted text, metadata, and suggested next steps.",
+  "category": "file-processing",
+  "parameters": [
+    {
+      "name": "path",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Full path to the file to process (use the cachedPath from attached file info)"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

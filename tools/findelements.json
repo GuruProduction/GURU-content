@@ -1,0 +1,19 @@
+{
+  "slug": "findelements",
+  "name": "findElements",
+  "description": "Find all clickable elements on the current screen. Returns list of text, bounds, and view IDs. Use this to discover what can be tapped.",
+  "category": "device-control",
+  "parameters": [
+    {
+      "name": "textFilter",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Filter to only include elements containing this text (optional)"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "pullapk",
+  "name": "pullApk",
+  "description": "Pull an APK from an installed app.",
+  "category": "reverse-engineering",
+  "parameters": [
+    {
+      "name": "packageName",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Package name"
+    },
+    {
+      "name": "outputDir",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Output directory"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "sendintent",
+  "name": "sendIntent",
+  "description": "Send an Android intent. This is the real superpower — you can fire intents at any app to open URLs, share files, trigger actions, start activities. Use for controlling other apps and system functions.",
+  "category": "intent",
+  "parameters": [
+    {
+      "name": "action",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Intent action, e.g. android.intent.action.VIEW, android.intent.action.SEND"
+    },
+    {
+      "name": "dataUri",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Data URI, e.g. https://example.com or file:///path/to/file"
+    },
+    {
+      "name": "mimeType",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "MIME type, e.g. text/plain, image/*"
+    },
+    {
+      "name": "packageName",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Package name to target a specific app, empty for any"
+    },
+    {
+      "name": "extras",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "JSON object of extras, e.g. {\"android.intent.extra.TEXT\":\"Hello\"}"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

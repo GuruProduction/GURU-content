@@ -1,0 +1,26 @@
+{
+  "slug": "vibrate",
+  "name": "vibrate",
+  "description": "Make the device vibrate with a pattern.",
+  "category": "sound",
+  "parameters": [
+    {
+      "name": "pattern",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Vibration pattern ms, comma-separated"
+    },
+    {
+      "name": "repeatCount",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Repeat count"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

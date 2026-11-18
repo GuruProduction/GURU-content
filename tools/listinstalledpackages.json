@@ -1,0 +1,26 @@
+{
+  "slug": "listinstalledpackages",
+  "name": "listInstalledPackages",
+  "description": "List all installed packages on the device. Filter by system apps, user apps, or search by package name.",
+  "category": "reverse-engineering",
+  "parameters": [
+    {
+      "name": "filter",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Filter: all, user, system, or search term"
+    },
+    {
+      "name": "limit",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Max results, default 100"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

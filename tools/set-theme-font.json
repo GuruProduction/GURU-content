@@ -1,0 +1,26 @@
+{
+  "slug": "set-theme-font",
+  "name": "set_theme_font",
+  "description": "Set a custom font for a specific context in the app.",
+  "category": "theme",
+  "parameters": [
+    {
+      "name": "fontName",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The font name"
+    },
+    {
+      "name": "context",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Which context: app, guru, or user. Defaults to app."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

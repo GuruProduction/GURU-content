@@ -1,0 +1,40 @@
+{
+  "slug": "ttsspeak",
+  "name": "ttsSpeak",
+  "description": "Speak text aloud using TTS.",
+  "category": "voice",
+  "parameters": [
+    {
+      "name": "text",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Text to speak"
+    },
+    {
+      "name": "rate",
+      "type": "Float",
+      "required": false,
+      "enumValues": null,
+      "description": "Rate 0.25-2.0"
+    },
+    {
+      "name": "pitch",
+      "type": "Float",
+      "required": false,
+      "enumValues": null,
+      "description": "Pitch 0.5-2.0"
+    },
+    {
+      "name": "language",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Language tag"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

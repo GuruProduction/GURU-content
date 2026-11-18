@@ -1,0 +1,33 @@
+{
+  "slug": "addmemoryfact",
+  "name": "addMemoryFact",
+  "description": "Add a new fact to your memory.",
+  "category": "memory",
+  "parameters": [
+    {
+      "name": "fact",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The fact to remember"
+    },
+    {
+      "name": "category",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Category"
+    },
+    {
+      "name": "confidence",
+      "type": "Float",
+      "required": false,
+      "enumValues": null,
+      "description": "Confidence 0.0-1.0"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

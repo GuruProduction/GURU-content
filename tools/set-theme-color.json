@@ -1,0 +1,26 @@
+{
+  "slug": "set-theme-color",
+  "name": "set_theme_color",
+  "description": "Set a specific color in the app theme.",
+  "category": "theme",
+  "parameters": [
+    {
+      "name": "role",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The color role to change"
+    },
+    {
+      "name": "color",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The hex color value"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

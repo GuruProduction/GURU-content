@@ -1,0 +1,26 @@
+{
+  "slug": "xreply",
+  "name": "xReply",
+  "description": "Reply to a tweet on X/Twitter.",
+  "category": "communication",
+  "parameters": [
+    {
+      "name": "tweetId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Tweet ID to reply to"
+    },
+    {
+      "name": "content",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Reply content"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

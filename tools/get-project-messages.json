@@ -1,0 +1,26 @@
+{
+  "slug": "get-project-messages",
+  "name": "get_project_messages",
+  "description": "Get recent messages from a project conversation history.",
+  "category": "project",
+  "parameters": [
+    {
+      "name": "projectId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The project ID"
+    },
+    {
+      "name": "limit",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Maximum messages. Default 50."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

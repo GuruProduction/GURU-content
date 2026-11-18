@@ -1,0 +1,19 @@
+{
+  "slug": "deletealarm",
+  "name": "deleteAlarm",
+  "description": "Delete an alarm by its ID. Use this when a task's alarm is no longer needed.",
+  "category": "alarm",
+  "parameters": [
+    {
+      "name": "alarmId",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "The alarm ID to delete"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

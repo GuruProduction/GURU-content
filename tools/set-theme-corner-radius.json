@@ -1,0 +1,26 @@
+{
+  "slug": "set-theme-corner-radius",
+  "name": "set_theme_corner_radius",
+  "description": "Set the corner radius for UI elements.",
+  "category": "theme",
+  "parameters": [
+    {
+      "name": "size",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Which corner radius size to set: small, medium, or large"
+    },
+    {
+      "name": "radius",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "The corner radius in dp"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

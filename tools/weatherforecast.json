@@ -1,0 +1,26 @@
+{
+  "slug": "weatherforecast",
+  "name": "weatherForecast",
+  "description": "Get weather forecast for a location through Tor.",
+  "category": "web-services",
+  "parameters": [
+    {
+      "name": "location",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Location"
+    },
+    {
+      "name": "days",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Number of days (1-5). Default 3."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "sqlexecute",
+  "name": "sqlExecute",
+  "description": "Execute an INSERT, UPDATE, DELETE, CREATE TABLE, ALTER TABLE, DROP TABLE, or any non-SELECT SQL statement on a SQLite database. This is permanent.",
+  "category": "database",
+  "parameters": [
+    {
+      "name": "database",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Database file path"
+    },
+    {
+      "name": "statement",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "SQL statement"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

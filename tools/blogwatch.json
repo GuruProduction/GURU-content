@@ -1,0 +1,26 @@
+{
+  "slug": "blogwatch",
+  "name": "blogWatch",
+  "description": "Check a blog for new posts since last check through Tor.",
+  "category": "web-services",
+  "parameters": [
+    {
+      "name": "url",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "RSS/Atom feed URL to watch"
+    },
+    {
+      "name": "lastChecked",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Last checked entry ID or timestamp"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

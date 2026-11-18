@@ -1,0 +1,19 @@
+{
+  "slug": "createmultipletasks",
+  "name": "createMultipleTasks",
+  "description": "Create multiple tasks. Returns IDs.",
+  "category": "task",
+  "parameters": [
+    {
+      "name": "tasks",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "JSON array of task inputs"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

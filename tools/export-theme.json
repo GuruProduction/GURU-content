@@ -1,0 +1,11 @@
+{
+  "slug": "export-theme",
+  "name": "export_theme",
+  "description": "Export the current theme configuration as a JSON string.",
+  "category": "theme",
+  "parameters": [],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

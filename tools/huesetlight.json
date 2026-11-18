@@ -1,0 +1,47 @@
+{
+  "slug": "huesetlight",
+  "name": "hueSetLight",
+  "description": "Control a Philips Hue light - turn on/off, set brightness, color, or temperature.",
+  "category": "smart-home",
+  "parameters": [
+    {
+      "name": "light",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Light name or ID"
+    },
+    {
+      "name": "power",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Power state: on or off"
+    },
+    {
+      "name": "brightness",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Brightness level 0-100"
+    },
+    {
+      "name": "temperature",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Color temperature in mirek (153-500)"
+    },
+    {
+      "name": "color",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Color name or hex"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

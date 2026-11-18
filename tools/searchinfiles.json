@@ -1,0 +1,33 @@
+{
+  "slug": "searchinfiles",
+  "name": "searchInFiles",
+  "description": "Search for text content inside files. Uses grep under the hood. Returns matching lines with file paths and line numbers.",
+  "category": "file",
+  "parameters": [
+    {
+      "name": "directory",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The directory to search in"
+    },
+    {
+      "name": "pattern",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The text pattern to search for"
+    },
+    {
+      "name": "fileExtension",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "File extension filter, e.g. txt or kt. Null to search all files."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

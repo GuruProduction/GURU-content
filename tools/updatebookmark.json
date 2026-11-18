@@ -1,0 +1,40 @@
+{
+  "slug": "updatebookmark",
+  "name": "updateBookmark",
+  "description": "Update an existing bookmark. Only the fields you provide will be changed. Returns the updated bookmark.",
+  "category": "bookmark",
+  "parameters": [
+    {
+      "name": "id",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Bookmark ID"
+    },
+    {
+      "name": "url",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New URL"
+    },
+    {
+      "name": "title",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New title"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New description"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

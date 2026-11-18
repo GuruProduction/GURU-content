@@ -1,0 +1,19 @@
+{
+  "slug": "getapprovaldetails",
+  "name": "getApprovalDetails",
+  "description": "Get full details for a specific pending item.",
+  "category": "approval",
+  "parameters": [
+    {
+      "name": "itemId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The ID of the approval item to inspect."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

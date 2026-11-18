@@ -1,0 +1,26 @@
+{
+  "slug": "set-font-scale",
+  "name": "set_font_scale",
+  "description": "Set the font scale (text size multiplier) for a specific context.",
+  "category": "theme",
+  "parameters": [
+    {
+      "name": "scale",
+      "type": "Float",
+      "required": true,
+      "enumValues": null,
+      "description": "The font scale multiplier. 1.0 = normal, 1.5 = 50% bigger, 0.8 = 20% smaller. Range 0.5 to 3.0."
+    },
+    {
+      "name": "context",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Which context: app, guru, or user. Defaults to app."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "deletememoryfact",
+  "name": "deleteMemoryFact",
+  "description": "Delete a fact from your memory.",
+  "category": "memory",
+  "parameters": [
+    {
+      "name": "factId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Fact ID"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

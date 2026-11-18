@@ -1,0 +1,33 @@
+{
+  "slug": "fsfindfiles",
+  "name": "fsFindFiles",
+  "description": "Search for files by name pattern in a directory tree. Returns matching file paths.",
+  "category": "filesystem",
+  "parameters": [
+    {
+      "name": "directory",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Directory to search in"
+    },
+    {
+      "name": "pattern",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "File name pattern, e.g. *.pdf"
+    },
+    {
+      "name": "maxDepth",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Maximum depth to search, default 3"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

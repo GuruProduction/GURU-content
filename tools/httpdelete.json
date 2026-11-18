@@ -1,0 +1,26 @@
+{
+  "slug": "httpdelete",
+  "name": "httpDelete",
+  "description": "Make an HTTP DELETE request through Tor.",
+  "category": "http",
+  "parameters": [
+    {
+      "name": "url",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "URL"
+    },
+    {
+      "name": "headers",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "JSON headers"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

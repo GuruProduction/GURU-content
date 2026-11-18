@@ -1,0 +1,26 @@
+{
+  "slug": "savepreference",
+  "name": "savePreference",
+  "description": "Save a preference value. Use this to change your human's settings.",
+  "category": "settings",
+  "parameters": [
+    {
+      "name": "key",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The preference key to set"
+    },
+    {
+      "name": "value",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The value to set"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

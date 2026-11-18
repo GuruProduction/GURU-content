@@ -1,0 +1,47 @@
+{
+  "slug": "create-project",
+  "name": "create_project",
+  "description": "Create a new project workspace. Projects are sandboxed AI workspaces for specific tasks.",
+  "category": "project",
+  "parameters": [
+    {
+      "name": "title",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Project title"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Project description"
+    },
+    {
+      "name": "promptOverlay",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Custom instructions for the project AI agent"
+    },
+    {
+      "name": "color",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Accent color for UI (hex)"
+    },
+    {
+      "name": "icon",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Icon identifier"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "searchtoolresults",
+  "name": "searchToolResults",
+  "description": "Search all past tool results by content using full-text search.",
+  "category": "tool-result",
+  "parameters": [
+    {
+      "name": "query",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "What to search for in past tool results"
+    },
+    {
+      "name": "limit",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Maximum number of results to return, default 5"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

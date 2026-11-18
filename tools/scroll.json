@@ -1,0 +1,19 @@
+{
+  "slug": "scroll",
+  "name": "scroll",
+  "description": "Scroll the current screen. Use 'down' to see more content below, 'up' to go back up.",
+  "category": "device-control",
+  "parameters": [
+    {
+      "name": "direction",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Direction to scroll: up or down"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "searchfiles",
+  "name": "searchFiles",
+  "description": "Search for files by name pattern in a directory. Uses find command under the hood. Returns matching file paths.",
+  "category": "file",
+  "parameters": [
+    {
+      "name": "directory",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The directory to search in, e.g. /sdcard/Download"
+    },
+    {
+      "name": "pattern",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The file name pattern to match, e.g. *.pdf or photo*"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

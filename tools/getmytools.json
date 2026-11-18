@@ -1,0 +1,11 @@
+{
+  "slug": "getmytools",
+  "name": "getMyTools",
+  "description": "List all tools you've defined. Shows both approved and pending tools.",
+  "category": "meta",
+  "parameters": [],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "busyboxexec",
+  "name": "busyboxExec",
+  "description": "Execute a command using busybox/toybox. Provides curl, wget, grep, awk, sed, sqlite3, tar, and many more. curl and wget automatically route through Tor.",
+  "category": "shell",
+  "parameters": [
+    {
+      "name": "command",
+      "type": "ShellCommand",
+      "required": true,
+      "enumValues": null,
+      "description": "The command to execute"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

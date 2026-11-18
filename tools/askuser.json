@@ -1,0 +1,28 @@
+{
+  "slug": "askuser",
+  "name": "askUser",
+  "description": "Ask your human a question and wait for their response. Use this when you need clarification, confirmation, or input that you can't determine on your own. The conversation will pause until they respond.",
+  "category": "communication",
+  "parameters": [
+    {
+      "name": "question",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The question to ask your human"
+    },
+    {
+      "name": "options",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Optional list of choices for your human to pick from. Max 4 options. Pass as comma-separated string."
+    }
+  ],
+  "permissions": [
+    "android.permission.POST_NOTIFICATIONS"
+  ],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

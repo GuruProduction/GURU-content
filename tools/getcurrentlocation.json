@@ -1,0 +1,11 @@
+{
+  "slug": "getcurrentlocation",
+  "name": "getCurrentLocation",
+  "description": "Get the device's current GPS location. Returns latitude, longitude, accuracy, altitude, speed, and bearing. Use for location-based queries, weather that works without API keys, navigation, or knowing where your human is.",
+  "category": "location",
+  "parameters": [],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

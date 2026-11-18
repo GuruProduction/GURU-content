@@ -1,0 +1,19 @@
+{
+  "slug": "websummarize",
+  "name": "webSummarize",
+  "description": "Fetch a web page through Tor and return the full content for summarization. Private browsing, no tracking.",
+  "category": "web",
+  "parameters": [
+    {
+      "name": "url",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The URL to fetch and summarize"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

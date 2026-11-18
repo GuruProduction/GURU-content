@@ -1,0 +1,33 @@
+{
+  "slug": "qrgenerate",
+  "name": "qrGenerate",
+  "description": "Generate a QR code image. Works offline.",
+  "category": "web-services",
+  "parameters": [
+    {
+      "name": "content",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Text or URL to encode"
+    },
+    {
+      "name": "filename",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Filename. Default qr."
+    },
+    {
+      "name": "size",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Image size. Default 300."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

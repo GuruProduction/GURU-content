@@ -1,0 +1,47 @@
+{
+  "slug": "swipe",
+  "name": "swipe",
+  "description": "Perform a swipe gesture from one point to another. Use for scrolling, unlocking, or any drag operation.",
+  "category": "device-control",
+  "parameters": [
+    {
+      "name": "startX",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "Starting X coordinate"
+    },
+    {
+      "name": "startY",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "Starting Y coordinate"
+    },
+    {
+      "name": "endX",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "Ending X coordinate"
+    },
+    {
+      "name": "endY",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "Ending Y coordinate"
+    },
+    {
+      "name": "durationMs",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Duration of swipe in milliseconds. Default 300. Longer = slower swipe."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "updateevent",
+  "name": "updateEvent",
+  "description": "Update an existing calendar event. Only the fields you provide will be changed.",
+  "category": "calendar",
+  "parameters": [
+    {
+      "name": "id",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "Event ID"
+    },
+    {
+      "name": "title",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New title"
+    },
+    {
+      "name": "start",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New start"
+    },
+    {
+      "name": "end",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New end"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New description"
+    },
+    {
+      "name": "location",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New location"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

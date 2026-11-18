@@ -1,0 +1,19 @@
+{
+  "slug": "searchskills",
+  "name": "searchSkills",
+  "description": "Search available skills by keyword. Returns matching skills with their names, descriptions, and trigger conditions. Searches across skill names, descriptions, and when-to-use fields from bundled, dynamic, and user-created skills. Use this to discover what skills you have before starting a task. Pass an empty string to get all skills.",
+  "category": "luxify",
+  "parameters": [
+    {
+      "name": "query",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Search query. Matches against skill name, description, and when_to_use. Pass empty string to list all."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

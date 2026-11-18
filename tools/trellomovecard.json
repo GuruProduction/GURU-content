@@ -1,0 +1,26 @@
+{
+  "slug": "trellomovecard",
+  "name": "trelloMoveCard",
+  "description": "Move a Trello card to a different list through Tor.",
+  "category": "productivity",
+  "parameters": [
+    {
+      "name": "cardId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Card ID to move"
+    },
+    {
+      "name": "targetListId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Target list ID"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "extractarchive",
+  "name": "extractArchive",
+  "description": "Extract a zip archive to a directory.",
+  "category": "filesystem",
+  "parameters": [
+    {
+      "name": "archivePath",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Archive path"
+    },
+    {
+      "name": "destinationPath",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Extract directory"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

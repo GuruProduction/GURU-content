@@ -1,0 +1,26 @@
+{
+  "slug": "clicktext",
+  "name": "clickText",
+  "description": "Find and click UI element by its visible text. Searches for buttons, labels, or any text on screen and clicks it. Use this when you can see text on screen but don't know exact coordinates.",
+  "category": "device-control",
+  "parameters": [
+    {
+      "name": "text",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The visible text to search for and click"
+    },
+    {
+      "name": "exact",
+      "type": "Boolean",
+      "required": false,
+      "enumValues": null,
+      "description": "Whether to match exact text only (true) or partial match (false). Default true."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

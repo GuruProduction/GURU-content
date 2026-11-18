@@ -1,0 +1,19 @@
+{
+  "slug": "fsgetfileinfo",
+  "name": "fsGetFileInfo",
+  "description": "Get detailed information about a file or directory: size, permissions, modification time, type.",
+  "category": "filesystem",
+  "parameters": [
+    {
+      "name": "path",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Path"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

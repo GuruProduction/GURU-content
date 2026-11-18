@@ -1,0 +1,61 @@
+{
+  "slug": "createtask",
+  "name": "createTask",
+  "description": "Create a task. Returns ID.",
+  "category": "task",
+  "parameters": [
+    {
+      "name": "title",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Task title"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Description"
+    },
+    {
+      "name": "priority",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Priority: LOW, MEDIUM, HIGH, URGENT"
+    },
+    {
+      "name": "dueDate",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Due date HH:mm dd-MM-yyyy"
+    },
+    {
+      "name": "recurring",
+      "type": "Boolean",
+      "required": false,
+      "enumValues": null,
+      "description": "Recurring"
+    },
+    {
+      "name": "frequency",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "DAILY, WEEKLY, MONTHLY, YEARLY"
+    },
+    {
+      "name": "frequencyAmount",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Frequency interval"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

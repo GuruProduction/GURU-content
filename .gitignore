@@ -1,0 +1,7 @@
+node_modules/
+dump.json
+*.log
+
+# Local overrides; the publisher only reads the database.
+.env
+.DS_Store

@@ -1,0 +1,19 @@
+{
+  "slug": "keyboardpresskey",
+  "name": "keyboardPressKey",
+  "description": "Simulate a key press. Use for keyboard shortcuts, navigation keys, or special keys. Key codes: 3=HOME, 4=BACK, 24=VOLUME_UP, 25=VOLUME_DOWN, 26=POWER, 66=ENTER, 67=DELETE, 82=MENU, 84=SEARCH.",
+  "category": "keyboard",
+  "parameters": [
+    {
+      "name": "keyCode",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "Android key code to press"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

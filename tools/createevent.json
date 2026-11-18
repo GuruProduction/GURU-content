@@ -1,0 +1,68 @@
+{
+  "slug": "createevent",
+  "name": "createEvent",
+  "description": "Create event. Returns ID.",
+  "category": "calendar",
+  "parameters": [
+    {
+      "name": "title",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Event title"
+    },
+    {
+      "name": "start",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Format: HH:mm dd-MM-yyyy"
+    },
+    {
+      "name": "end",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Format: HH:mm dd-MM-yyyy"
+    },
+    {
+      "name": "calendarId",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "Use getAllCalendars to get ID"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Description"
+    },
+    {
+      "name": "location",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Location"
+    },
+    {
+      "name": "allDay",
+      "type": "Boolean",
+      "required": false,
+      "enumValues": null,
+      "description": "All day"
+    },
+    {
+      "name": "recurring",
+      "type": "Boolean",
+      "required": false,
+      "enumValues": null,
+      "description": "Recurring"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

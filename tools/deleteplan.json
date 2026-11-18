@@ -1,0 +1,19 @@
+{
+  "slug": "deleteplan",
+  "name": "deletePlan",
+  "description": "Delete a plan permanently. This deletes the underlying note. Use getActivePlans first to find the plan ID.",
+  "category": "planning",
+  "parameters": [
+    {
+      "name": "planId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The ID of the plan to delete"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

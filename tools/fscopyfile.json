@@ -1,0 +1,26 @@
+{
+  "slug": "fscopyfile",
+  "name": "fsCopyFile",
+  "description": "Copy a file or directory to a new location.",
+  "category": "filesystem",
+  "parameters": [
+    {
+      "name": "source",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Source file or directory path"
+    },
+    {
+      "name": "destination",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Destination path"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

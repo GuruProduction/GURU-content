@@ -1,0 +1,19 @@
+{
+  "slug": "typetext",
+  "name": "typeText",
+  "description": "Type text into the currently focused input field. First tap a text field, then use this to enter text.",
+  "category": "device-control",
+  "parameters": [
+    {
+      "name": "text",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Text to type into the input field"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "definetool",
+  "name": "defineTool",
+  "description": "Define a new tool for yourself by composing existing tools. Composition tools are auto-approved. Shell commands and webhook tools require user approval.",
+  "category": "meta",
+  "parameters": [
+    {
+      "name": "name",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Tool name (lowercase, underscores)"
+    },
+    {
+      "name": "displayName",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Human-readable name"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Description"
+    },
+    {
+      "name": "parameters",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "JSON schema for parameters"
+    },
+    {
+      "name": "implementation",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Implementation JSON"
+    },
+    {
+      "name": "rationale",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Why this tool is needed"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "searcheventsbynamewithinrange",
+  "name": "searchEventsByNameWithinRange",
+  "description": "Search for an event name within a date range.",
+  "category": "calendar",
+  "parameters": [
+    {
+      "name": "eventName",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Event name or partial"
+    },
+    {
+      "name": "startDateTime",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Format: HH:mm dd-MM-yyyy"
+    },
+    {
+      "name": "endDateTime",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Format: HH:mm dd-MM-yyyy"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

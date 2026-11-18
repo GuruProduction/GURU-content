@@ -1,0 +1,33 @@
+{
+  "slug": "createjournalentry",
+  "name": "createJournalEntry",
+  "description": "Create journal entry. Returns ID.",
+  "category": "journal",
+  "parameters": [
+    {
+      "name": "title",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Entry title"
+    },
+    {
+      "name": "content",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Entry content"
+    },
+    {
+      "name": "mood",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Mood. Options: HAPPY, GOOD, NEUTRAL, SAD, ANGRY, ANXIOUS, EXCITED, TIRED, GRATEFUL"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

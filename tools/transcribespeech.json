@@ -1,0 +1,28 @@
+{
+  "slug": "transcribespeech",
+  "name": "transcribeSpeech",
+  "description": "Record audio from microphone and transcribe it.",
+  "category": "voice",
+  "parameters": [
+    {
+      "name": "durationSeconds",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Recording duration, default 10"
+    },
+    {
+      "name": "language",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Language code"
+    }
+  ],
+  "permissions": [
+    "android.permission.RECORD_AUDIO"
+  ],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

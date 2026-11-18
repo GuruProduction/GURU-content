@@ -1,0 +1,28 @@
+{
+  "slug": "searchcontacts",
+  "name": "searchContacts",
+  "description": "Search contacts by name, email, or phone number. Use when your human says 'message Sarah' or 'call my mum' — you need to find the right contact first.",
+  "category": "contacts",
+  "parameters": [
+    {
+      "name": "query",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Search query — name, email, or phone number"
+    },
+    {
+      "name": "limit",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Maximum results, default 20"
+    }
+  ],
+  "permissions": [
+    "android.permission.READ_CONTACTS"
+  ],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

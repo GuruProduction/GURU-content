@@ -1,0 +1,33 @@
+{
+  "slug": "cameramotiondetect",
+  "name": "cameraMotionDetect",
+  "description": "Enable motion detection on a camera.",
+  "category": "camera",
+  "parameters": [
+    {
+      "name": "camera",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Camera ID or RTSP URL"
+    },
+    {
+      "name": "sensitivity",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Sensitivity level (1-100)"
+    },
+    {
+      "name": "enable",
+      "type": "Boolean",
+      "required": false,
+      "enumValues": null,
+      "description": "Enable or disable motion detection"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

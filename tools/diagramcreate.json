@@ -1,0 +1,33 @@
+{
+  "slug": "diagramcreate",
+  "name": "diagramCreate",
+  "description": "Create a diagram from text description using Mermaid or Excalidraw syntax.",
+  "category": "productivity",
+  "parameters": [
+    {
+      "name": "code",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Diagram code in Mermaid or Excalidraw format"
+    },
+    {
+      "name": "format",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Output format: svg, png, or excalidraw. Default svg."
+    },
+    {
+      "name": "filename",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Filename without extension. Default diagram."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

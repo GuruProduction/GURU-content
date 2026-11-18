@@ -1,0 +1,26 @@
+{
+  "slug": "createarchive",
+  "name": "createArchive",
+  "description": "Create a zip archive from files or directories.",
+  "category": "filesystem",
+  "parameters": [
+    {
+      "name": "sourcePaths",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Comma-separated paths"
+    },
+    {
+      "name": "archivePath",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Output path"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

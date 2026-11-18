@@ -1,0 +1,33 @@
+{
+  "slug": "sqlquery",
+  "name": "sqlQuery",
+  "description": "Execute a SELECT query on any SQLite database file. Returns results as JSON array of objects.",
+  "category": "database",
+  "parameters": [
+    {
+      "name": "database",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Full path to SQLite database file"
+    },
+    {
+      "name": "query",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "SQL SELECT query"
+    },
+    {
+      "name": "limit",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Max rows, default 100"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

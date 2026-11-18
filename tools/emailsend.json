@@ -1,0 +1,47 @@
+{
+  "slug": "emailsend",
+  "name": "emailSend",
+  "description": "Send an email.",
+  "category": "email",
+  "parameters": [
+    {
+      "name": "to",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Recipient email address"
+    },
+    {
+      "name": "subject",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Email subject"
+    },
+    {
+      "name": "body",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Email body"
+    },
+    {
+      "name": "cc",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "CC recipients (comma-separated)"
+    },
+    {
+      "name": "bcc",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "BCC recipients (comma-separated)"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

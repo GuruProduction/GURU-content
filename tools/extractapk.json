@@ -1,0 +1,26 @@
+{
+  "slug": "extractapk",
+  "name": "extractApk",
+  "description": "Extract the entire APK to a directory.",
+  "category": "reverse-engineering",
+  "parameters": [
+    {
+      "name": "apkPath",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "APK path"
+    },
+    {
+      "name": "outputDir",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Output directory"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "videoframe",
+  "name": "videoFrame",
+  "description": "Extract a single frame from a video file at a specific timestamp. Returns the path to the extracted frame image.",
+  "category": "media",
+  "parameters": [
+    {
+      "name": "videoPath",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Path to the video file"
+    },
+    {
+      "name": "timestamp",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Timestamp to extract (e.g., 00:01:30 for 1 minute 30 seconds, or 1.5 for 1.5 seconds)"
+    },
+    {
+      "name": "outputName",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Output filename without extension. Default frame."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

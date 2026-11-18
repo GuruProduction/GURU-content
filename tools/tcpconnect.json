@@ -1,0 +1,40 @@
+{
+  "slug": "tcpconnect",
+  "name": "tcpConnect",
+  "description": "Open a raw TCP socket connection to any IP:port. NOT routed through Tor.",
+  "category": "environment",
+  "parameters": [
+    {
+      "name": "host",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "IP address or hostname"
+    },
+    {
+      "name": "port",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "Port number"
+    },
+    {
+      "name": "data",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Data to send"
+    },
+    {
+      "name": "timeoutMs",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Timeout in ms, default 5000"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

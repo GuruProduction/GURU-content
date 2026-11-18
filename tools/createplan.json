@@ -1,0 +1,26 @@
+{
+  "slug": "createplan",
+  "name": "createPlan",
+  "description": "Create a structured plan. Plans are stored as notes on the device with a special [PLAN] prefix so they can be found later. Each step has a checkbox format that can be updated.",
+  "category": "planning",
+  "parameters": [
+    {
+      "name": "title",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The title of the plan"
+    },
+    {
+      "name": "steps",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "List of steps in the plan. Pass as comma-separated or newline-separated string."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

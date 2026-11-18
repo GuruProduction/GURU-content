@@ -1,0 +1,26 @@
+{
+  "slug": "reversegeocode",
+  "name": "reverseGeocode",
+  "description": "Convert GPS coordinates to an address. Use when you have coordinates and need to know what's there.",
+  "category": "location",
+  "parameters": [
+    {
+      "name": "latitude",
+      "type": "Float",
+      "required": true,
+      "enumValues": null,
+      "description": "Latitude"
+    },
+    {
+      "name": "longitude",
+      "type": "Float",
+      "required": true,
+      "enumValues": null,
+      "description": "Longitude"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

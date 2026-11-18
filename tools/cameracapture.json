@@ -1,0 +1,26 @@
+{
+  "slug": "cameracapture",
+  "name": "cameraCapture",
+  "description": "Capture a photo from the device camera. Returns the path to the captured image.",
+  "category": "media",
+  "parameters": [
+    {
+      "name": "camera",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Camera to use: back for rear camera, front for selfie camera. Default back."
+    },
+    {
+      "name": "filename",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Filename without extension. Default photo."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

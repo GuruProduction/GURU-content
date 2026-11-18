@@ -1,0 +1,11 @@
+{
+  "slug": "getbusyboxhelp",
+  "name": "getBusyboxHelp",
+  "description": "List all available Unix utilities. Includes toybox applets and standalone binaries.",
+  "category": "shell",
+  "parameters": [],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

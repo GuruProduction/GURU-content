@@ -1,0 +1,19 @@
+{
+  "slug": "useskill",
+  "name": "useSkill",
+  "description": "Load and activate a skill by name. Returns the full skill methodology including steps, success criteria, and instructions. Call this before starting any task that matches a skill in your listing. The returned content is the complete process you should follow.",
+  "category": "luxify",
+  "parameters": [
+    {
+      "name": "skillName",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The name of the skill to load, exactly as it appears in the skill listing in your system prompt"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

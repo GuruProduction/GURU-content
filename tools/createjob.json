@@ -1,0 +1,124 @@
+{
+  "slug": "createjob",
+  "name": "createJob",
+  "description": "I create scheduled jobs. A job is a task I run automatically on a schedule. I can make it run once, at intervals, daily, weekly, monthly, or on a cron expression. When I create a job I store it in my database and register it with Android's WorkManager so it fires on time without anyone touching it.",
+  "category": "job",
+  "parameters": [
+    {
+      "name": "name",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "I need a unique name for this job. I use it to identify the job everywhere. The name must start with a lowercase letter and contain only lowercase letters, numbers, and underscores. Example: check_price_alerts"
+    },
+    {
+      "name": "displayName",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "I need a human-readable name. Something the user reads and understands what this job does. Example: Check Price Alerts"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "I need to know what this job does and why it exists. I read this to understand the purpose of the job when I'm deciding how to manage it."
+    },
+    {
+      "name": "scheduleType",
+      "type": "Enum",
+      "required": true,
+      "enumValues": [
+        "ONE_TIME",
+        "INTERVAL",
+        "DAILY",
+        "WEEKLY",
+        "MONTHLY",
+        "CRON"
+      ],
+      "description": "I need to know what kind of schedule controls when this job runs. I support one-time execution, interval-based polling, daily, weekly, monthly, and cron expressions."
+    },
+    {
+      "name": "scheduleConfig",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "I schedule jobs based on their type. The schedule config tells me when and how often to fire. For ONE_TIME and INTERVAL I need intervalMs and initialDelayMs. For DAILY I need hour and minute. For WEEKLY I need daysOfWeek, hour, and minute. For MONTHLY I need dayOfMonth, hour, and minute. For CRON I need a 5-field cron expression."
+    },
+    {
+      "name": "action",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "I execute actions when a job fires. JSON object with type (tool or skill), target (name of tool or skill), and params (map of parameter names to string values). Example: {type: tool, target: webSearch, params: {query: Bitcoin price}}"
+    },
+    {
+      "name": "input",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Optional input data that gets substituted into action params at execution time. Dollar-sign-prefixed strings in action params are replaced with matching values from this input."
+    },
+    {
+      "name": "destinationTable",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "I can write execution results to a database table. The table must already exist in guru_db. If null I just store results in lastResult."
+    },
+    {
+      "name": "retentionWindowHours",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "I keep results uncompressed in the destination table for this many hours. After that, the compression worker compresses them in place."
+    },
+    {
+      "name": "compressionEnabled",
+      "type": "Boolean",
+      "required": false,
+      "enumValues": null,
+      "description": "I can compress old results in place on the destination table. Default is false."
+    },
+    {
+      "name": "compressionCycleMs",
+      "type": "Long",
+      "required": false,
+      "enumValues": null,
+      "description": "I check this job's data for compression on a cycle. This tells me how many milliseconds to wait between compression checks. Only used if compressionEnabled is true."
+    },
+    {
+      "name": "failureThreshold",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "How many consecutive failures I tolerate before I auto-disable the job. If null I never auto-disable."
+    },
+    {
+      "name": "retryBackoffMs",
+      "type": "Long",
+      "required": false,
+      "enumValues": null,
+      "description": "When a job fails and I retry it, I wait this many milliseconds before trying again. If null I use WorkManager's default backoff."
+    },
+    {
+      "name": "autoDisableMessage",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "When a job auto-disables from consecutive failures, I fire a notification. This is the message I show. If null, I generate the message at runtime."
+    },
+    {
+      "name": "historyRetentionHours",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "I keep execution history for every job run. History rows stay uncompressed for this many hours. After that, the compression worker compresses them in place. If null I keep history uncompressed forever."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

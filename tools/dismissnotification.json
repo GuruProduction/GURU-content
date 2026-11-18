@@ -1,0 +1,26 @@
+{
+  "slug": "dismissnotification",
+  "name": "dismissNotification",
+  "description": "Dismiss a notification by package name and ID. Use to clean up notifications your human doesn't need to see.",
+  "category": "notification",
+  "parameters": [
+    {
+      "name": "packageName",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Package name of the app"
+    },
+    {
+      "name": "notificationId",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "Notification ID to dismiss"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

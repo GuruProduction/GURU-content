@@ -1,0 +1,33 @@
+{
+  "slug": "extractnativelibs",
+  "name": "extractNativeLibs",
+  "description": "Extract native libraries (.so files) from an APK.",
+  "category": "reverse-engineering",
+  "parameters": [
+    {
+      "name": "apkPath",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "APK path"
+    },
+    {
+      "name": "outputDir",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Output directory"
+    },
+    {
+      "name": "abi",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "CPU architecture: arm64-v8a, armeabi-v7a, x86_64, x86"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

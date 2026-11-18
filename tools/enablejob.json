@@ -1,0 +1,19 @@
+{
+  "slug": "enablejob",
+  "name": "enableJob",
+  "description": "I enable a disabled job. I set its enabled flag back to true and register a fresh WorkManager request so it starts firing on schedule again. The job picks up where it left off.",
+  "category": "job",
+  "parameters": [
+    {
+      "name": "name",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "I need the exact job name I used when I created it, or the UUID I returned from createJob. I try the name first, then the UUID. Either one works."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

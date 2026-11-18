@@ -1,0 +1,33 @@
+{
+  "slug": "sessionlogsexport",
+  "name": "sessionLogsExport",
+  "description": "Export session logs to a file.",
+  "category": "system",
+  "parameters": [
+    {
+      "name": "format",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Export format (json, csv, txt)"
+    },
+    {
+      "name": "startDate",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Date range start (ISO format, optional)"
+    },
+    {
+      "name": "endDate",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Date range end (ISO format, optional)"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

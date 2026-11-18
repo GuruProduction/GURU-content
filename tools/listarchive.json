@@ -1,0 +1,19 @@
+{
+  "slug": "listarchive",
+  "name": "listArchive",
+  "description": "List the contents of a zip archive without extracting.",
+  "category": "filesystem",
+  "parameters": [
+    {
+      "name": "archivePath",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Archive path"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

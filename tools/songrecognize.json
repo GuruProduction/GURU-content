@@ -1,0 +1,11 @@
+{
+  "slug": "songrecognize",
+  "name": "songRecognize",
+  "description": "Identify a song playing nearby using audio fingerprinting. Returns song title, artist, and album if found.",
+  "category": "media",
+  "parameters": [],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "emailforward",
+  "name": "emailForward",
+  "description": "Forward an email.",
+  "category": "email",
+  "parameters": [
+    {
+      "name": "emailId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Email ID to forward"
+    },
+    {
+      "name": "to",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Recipient"
+    },
+    {
+      "name": "message",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Additional message"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

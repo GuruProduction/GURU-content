@@ -1,0 +1,26 @@
+{
+  "slug": "hashdata",
+  "name": "hashData",
+  "description": "Hash data using SHA-256, SHA-512, or MD5. Returns hex-encoded hash.",
+  "category": "encryption",
+  "parameters": [
+    {
+      "name": "data",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Data to hash"
+    },
+    {
+      "name": "algorithm",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Algorithm: SHA-256, SHA-512, or MD5"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

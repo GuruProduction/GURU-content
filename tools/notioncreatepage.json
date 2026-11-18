@@ -1,0 +1,33 @@
+{
+  "slug": "notioncreatepage",
+  "name": "notionCreatePage",
+  "description": "Create a new Notion page in a parent page or database.",
+  "category": "productivity",
+  "parameters": [
+    {
+      "name": "parentId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Parent page ID or database ID"
+    },
+    {
+      "name": "title",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Page title"
+    },
+    {
+      "name": "content",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Page content in Markdown (optional)"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

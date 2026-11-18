@@ -1,0 +1,33 @@
+{
+  "slug": "audioconvert",
+  "name": "audioConvert",
+  "description": "Convert audio between formats.",
+  "category": "voice",
+  "parameters": [
+    {
+      "name": "inputPath",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Source audio file"
+    },
+    {
+      "name": "format",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Output format: mp3, wav, m4a, ogg, flac"
+    },
+    {
+      "name": "outputName",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Output filename"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

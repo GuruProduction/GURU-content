@@ -1,0 +1,33 @@
+{
+  "slug": "decryptfile",
+  "name": "decryptFile",
+  "description": "Decrypt a file encrypted with encryptFile.",
+  "category": "encryption",
+  "parameters": [
+    {
+      "name": "inputPath",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Encrypted file"
+    },
+    {
+      "name": "outputPath",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Output path"
+    },
+    {
+      "name": "keyBase64",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Base64 key"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

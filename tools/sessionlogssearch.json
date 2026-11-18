@@ -1,0 +1,26 @@
+{
+  "slug": "sessionlogssearch",
+  "name": "sessionLogsSearch",
+  "description": "Search app session logs for specific events or patterns.",
+  "category": "system",
+  "parameters": [
+    {
+      "name": "query",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Search query (regex supported)"
+    },
+    {
+      "name": "limit",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Maximum results to return"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

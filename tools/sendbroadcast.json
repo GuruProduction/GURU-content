@@ -1,0 +1,26 @@
+{
+  "slug": "sendbroadcast",
+  "name": "sendBroadcast",
+  "description": "Send a broadcast intent. Use for system-wide events that other apps can receive.",
+  "category": "intent",
+  "parameters": [
+    {
+      "name": "action",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Broadcast action, e.g. com.example.CUSTOM_EVENT"
+    },
+    {
+      "name": "extras",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "JSON object of extras"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

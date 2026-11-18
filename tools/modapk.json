@@ -1,0 +1,33 @@
+{
+  "slug": "modapk",
+  "name": "modApk",
+  "description": "Modify an APK by unpacking, applying patches, and repacking.",
+  "category": "reverse-engineering",
+  "parameters": [
+    {
+      "name": "apkPath",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Original APK path"
+    },
+    {
+      "name": "modDir",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Directory with modifications"
+    },
+    {
+      "name": "outputPath",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Output path for modded APK"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

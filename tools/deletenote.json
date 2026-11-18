@@ -1,0 +1,19 @@
+{
+  "slug": "deletenote",
+  "name": "deleteNote",
+  "description": "Delete a note permanently. This cannot be undone.",
+  "category": "notes",
+  "parameters": [
+    {
+      "name": "id",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The ID of the note to delete"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

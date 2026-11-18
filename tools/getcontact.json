@@ -1,0 +1,21 @@
+{
+  "slug": "getcontact",
+  "name": "getContact",
+  "description": "Get full details for a specific contact by ID. Use after searchContacts to get complete information.",
+  "category": "contacts",
+  "parameters": [
+    {
+      "name": "contactId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Contact ID from searchContacts results"
+    }
+  ],
+  "permissions": [
+    "android.permission.READ_CONTACTS"
+  ],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

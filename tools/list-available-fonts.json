@@ -1,0 +1,11 @@
+{
+  "slug": "list-available-fonts",
+  "name": "list_available_fonts",
+  "description": "List all custom fonts available.",
+  "category": "theme",
+  "parameters": [],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "createhook",
+  "name": "createHook",
+  "description": "Create a hook - an event-triggered action.",
+  "category": "hook",
+  "parameters": [
+    {
+      "name": "name",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Hook name"
+    },
+    {
+      "name": "displayName",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Display name"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Description"
+    },
+    {
+      "name": "eventType",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Event type"
+    },
+    {
+      "name": "triggerTiming",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "BEFORE or AFTER"
+    },
+    {
+      "name": "condition",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "JSON condition"
+    },
+    {
+      "name": "action",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "JSON action"
+    },
+    {
+      "name": "priority",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "Priority"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

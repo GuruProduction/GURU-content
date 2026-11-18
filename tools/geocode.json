@@ -1,0 +1,19 @@
+{
+  "slug": "geocode",
+  "name": "geocode",
+  "description": "Convert an address to GPS coordinates. Use when your human says 'where is X' or you need coordinates for a place name.",
+  "category": "location",
+  "parameters": [
+    {
+      "name": "address",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Address to look up, e.g. 1600 Amphitheatre Parkway, Mountain View, CA"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

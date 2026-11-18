@@ -1,0 +1,26 @@
+{
+  "slug": "pairadbdevice",
+  "name": "pairAdbDevice",
+  "description": "Pair with ADB Wireless Debugging using a pairing code.",
+  "category": "shell",
+  "parameters": [
+    {
+      "name": "pairingCode",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "6-digit pairing code"
+    },
+    {
+      "name": "port",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Pairing port"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

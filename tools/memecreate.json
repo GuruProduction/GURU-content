@@ -1,0 +1,33 @@
+{
+  "slug": "memecreate",
+  "name": "memeCreate",
+  "description": "Create a meme from a template with custom text. Returns the path to the generated meme image.",
+  "category": "media",
+  "parameters": [
+    {
+      "name": "template",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Template name (e.g., drake, distracted_boyfriend, two_buttons)"
+    },
+    {
+      "name": "topText",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Top text or first panel text"
+    },
+    {
+      "name": "bottomText",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Bottom text or second panel text (optional)"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

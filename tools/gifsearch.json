@@ -1,0 +1,33 @@
+{
+  "slug": "gifsearch",
+  "name": "gifSearch",
+  "description": "Search for GIFs on Tenor or Giphy. Returns URLs for preview and full GIF. Use this when your human wants a funny reaction GIF or to express something visually.",
+  "category": "media",
+  "parameters": [
+    {
+      "name": "query",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Search query - what kind of GIF to find"
+    },
+    {
+      "name": "limit",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Maximum results to return. Default 5."
+    },
+    {
+      "name": "provider",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Provider: tenor or giphy. Default tenor."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "rejectitem",
+  "name": "rejectItem",
+  "description": "Reject a pending item. USER tool only.",
+  "category": "approval",
+  "parameters": [
+    {
+      "name": "itemId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The ID of the item to reject."
+    },
+    {
+      "name": "reason",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Optional reason for rejection."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

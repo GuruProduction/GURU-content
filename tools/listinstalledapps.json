@@ -1,0 +1,19 @@
+{
+  "slug": "listinstalledapps",
+  "name": "listInstalledApps",
+  "description": "List installed apps on the device. Returns package name, app name, and version.",
+  "category": "app",
+  "parameters": [
+    {
+      "name": "includeSystem",
+      "type": "Boolean",
+      "required": false,
+      "enumValues": null,
+      "description": "Include system apps, default false"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

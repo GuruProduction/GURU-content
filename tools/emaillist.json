@@ -1,0 +1,33 @@
+{
+  "slug": "emaillist",
+  "name": "emailList",
+  "description": "List emails in a folder.",
+  "category": "email",
+  "parameters": [
+    {
+      "name": "folder",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Folder name (inbox, sent, drafts, etc.)"
+    },
+    {
+      "name": "limit",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Number of emails to retrieve"
+    },
+    {
+      "name": "offset",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Offset for pagination"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

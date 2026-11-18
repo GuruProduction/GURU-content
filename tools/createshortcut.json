@@ -1,0 +1,40 @@
+{
+  "slug": "createshortcut",
+  "name": "createShortcut",
+  "description": "Create a homescreen shortcut that launches a specific action. Use when your human wants quick access to something you have built - a skill, a tool, a URL, or any intent-based action.",
+  "category": "widget",
+  "parameters": [
+    {
+      "name": "name",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Short name for the shortcut"
+    },
+    {
+      "name": "action",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Intent action, e.g. android.intent.action.VIEW"
+    },
+    {
+      "name": "dataUri",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Data URI for the intent"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Short description shown on the shortcut"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

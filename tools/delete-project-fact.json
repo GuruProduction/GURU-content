@@ -1,0 +1,19 @@
+{
+  "slug": "delete-project-fact",
+  "name": "delete_project_fact",
+  "description": "Delete a fact from a project knowledge base.",
+  "category": "project",
+  "parameters": [
+    {
+      "name": "factId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The fact ID"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

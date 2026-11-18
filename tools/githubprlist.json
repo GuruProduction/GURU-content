@@ -1,0 +1,33 @@
+{
+  "slug": "githubprlist",
+  "name": "githubPrList",
+  "description": "List pull requests in a repository.",
+  "category": "productivity",
+  "parameters": [
+    {
+      "name": "repo",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Repository in owner/repo format"
+    },
+    {
+      "name": "state",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "State filter: open, closed, or all. Default open."
+    },
+    {
+      "name": "limit",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Maximum results. Default 20."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

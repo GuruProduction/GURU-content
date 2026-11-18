@@ -1,0 +1,40 @@
+{
+  "slug": "updatejournalentry",
+  "name": "updateJournalEntry",
+  "description": "Update an existing journal entry. Only the fields you provide will be changed. Returns the updated entry.",
+  "category": "journal",
+  "parameters": [
+    {
+      "name": "id",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Entry ID"
+    },
+    {
+      "name": "title",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New title"
+    },
+    {
+      "name": "content",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New content"
+    },
+    {
+      "name": "mood",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New mood"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

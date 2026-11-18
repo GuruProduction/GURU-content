@@ -1,0 +1,33 @@
+{
+  "slug": "gettoolresult",
+  "name": "getToolResult",
+  "description": "Retrieve past tool results by tool name without re-calling the tool. Every tool result is permanently stored in your brain. Use this when a result has been cleared from your context and you need it back.",
+  "category": "tool-result",
+  "parameters": [
+    {
+      "name": "toolName",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The name of the tool whose results you want to retrieve"
+    },
+    {
+      "name": "limit",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Maximum number of results to return, default 5"
+    },
+    {
+      "name": "conversationId",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Optional conversation ID to scope results"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

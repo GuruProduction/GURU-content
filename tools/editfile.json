@@ -1,0 +1,33 @@
+{
+  "slug": "editfile",
+  "name": "editFile",
+  "description": "Edit a file by replacing specific text. The old text must match exactly. Works with any path the app has permission to access. If you have All Files Access (MANAGE_EXTERNAL_STORAGE) granted, /sdcard paths work directly.",
+  "category": "file",
+  "parameters": [
+    {
+      "name": "path",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The full path to the file to edit"
+    },
+    {
+      "name": "oldContent",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The exact text to find and replace"
+    },
+    {
+      "name": "newContent",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The new text to replace it with"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

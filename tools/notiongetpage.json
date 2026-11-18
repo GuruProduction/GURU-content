@@ -1,0 +1,19 @@
+{
+  "slug": "notiongetpage",
+  "name": "notionGetPage",
+  "description": "Get a Notion page by ID including its content through Tor.",
+  "category": "productivity",
+  "parameters": [
+    {
+      "name": "pageId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Page ID"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

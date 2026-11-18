@@ -1,0 +1,28 @@
+{
+  "slug": "sendnotification",
+  "name": "sendNotification",
+  "description": "Send a notification to your human's phone. Use this for important updates, reminders, or information they need to see even when they're not in the app.",
+  "category": "communication",
+  "parameters": [
+    {
+      "name": "title",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The notification title"
+    },
+    {
+      "name": "message",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The notification message"
+    }
+  ],
+  "permissions": [
+    "android.permission.POST_NOTIFICATIONS"
+  ],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

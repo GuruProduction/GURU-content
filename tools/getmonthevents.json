@@ -1,0 +1,26 @@
+{
+  "slug": "getmonthevents",
+  "name": "getMonthEvents",
+  "description": "Get all events for a specific month.",
+  "category": "calendar",
+  "parameters": [
+    {
+      "name": "month",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "Month number 1-12"
+    },
+    {
+      "name": "year",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "Year"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "capturescreen",
+  "name": "captureScreen",
+  "description": "Capture a screenshot of the current screen. Returns the file path. Requires screen capture permission - will request it if not granted.",
+  "category": "device-control",
+  "parameters": [
+    {
+      "name": "filename",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Filename for the screenshot (without extension). Default screenshot"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

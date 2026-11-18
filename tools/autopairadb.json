@@ -1,0 +1,11 @@
+{
+  "slug": "autopairadb",
+  "name": "autoPairAdb",
+  "description": "Automatically pair with ADB Wireless Debugging. Navigates to Settings > Developer Options > Wireless Debugging, opens the pairing dialog, reads the pairing code and port, and pairs automatically. The user just needs Accessibility Service enabled. This handles the entire pairing flow without the user needing to manually enter codes.",
+  "category": "device-control",
+  "parameters": [],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "emailreply",
+  "name": "emailReply",
+  "description": "Reply to an email.",
+  "category": "email",
+  "parameters": [
+    {
+      "name": "emailId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Email ID to reply to"
+    },
+    {
+      "name": "body",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Reply body"
+    },
+    {
+      "name": "replyAll",
+      "type": "Boolean",
+      "required": false,
+      "enumValues": null,
+      "description": "Reply all"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

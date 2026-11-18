@@ -1,0 +1,47 @@
+{
+  "slug": "add-project-message",
+  "name": "add_project_message",
+  "description": "Add a message to a project conversation history.",
+  "category": "project",
+  "parameters": [
+    {
+      "name": "projectId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The project ID"
+    },
+    {
+      "name": "role",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Message role: user or assistant"
+    },
+    {
+      "name": "content",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Message content"
+    },
+    {
+      "name": "toolCalls",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Tool calls JSON"
+    },
+    {
+      "name": "toolResults",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Tool results JSON"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

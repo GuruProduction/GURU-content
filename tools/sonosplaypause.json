@@ -1,0 +1,26 @@
+{
+  "slug": "sonosplaypause",
+  "name": "sonosPlayPause",
+  "description": "Play or pause a Sonos speaker.",
+  "category": "smart-home",
+  "parameters": [
+    {
+      "name": "speaker",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Speaker name or IP address"
+    },
+    {
+      "name": "action",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Action: play, pause, or stop"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

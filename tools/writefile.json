@@ -1,0 +1,26 @@
+{
+  "slug": "writefile",
+  "name": "writeFile",
+  "description": "Write content to a file on the device.",
+  "category": "shell",
+  "parameters": [
+    {
+      "name": "path",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Full path"
+    },
+    {
+      "name": "content",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Content to write"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

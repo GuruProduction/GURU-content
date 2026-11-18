@@ -1,0 +1,11 @@
+{
+  "slug": "listjobs",
+  "name": "listJobs",
+  "description": "I list every scheduled job I have. I show the job ID, name, display name, schedule type, whether it's enabled, how many times it's run, and when it's next due. I also show a summary of the whole job system.",
+  "category": "job",
+  "parameters": [],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "githubissuecreate",
+  "name": "githubIssueCreate",
+  "description": "Create a new issue in a repository.",
+  "category": "productivity",
+  "parameters": [
+    {
+      "name": "repo",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Repository in owner/repo format"
+    },
+    {
+      "name": "title",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Issue title"
+    },
+    {
+      "name": "body",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Issue body/description"
+    },
+    {
+      "name": "labels",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Labels to apply (comma-separated, optional)"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

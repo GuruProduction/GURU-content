@@ -1,0 +1,11 @@
+{
+  "slug": "getpendingapprovals",
+  "name": "getPendingApprovals",
+  "description": "Get ALL items awaiting user approval across every system.",
+  "category": "approval",
+  "parameters": [],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

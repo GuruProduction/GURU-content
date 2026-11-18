@@ -1,0 +1,61 @@
+{
+  "slug": "update-project",
+  "name": "update_project",
+  "description": "Update an existing project.",
+  "category": "project",
+  "parameters": [
+    {
+      "name": "id",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The ID of the project to update"
+    },
+    {
+      "name": "title",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New title"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New description"
+    },
+    {
+      "name": "promptOverlay",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New prompt overlay"
+    },
+    {
+      "name": "color",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New accent color"
+    },
+    {
+      "name": "icon",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "New icon"
+    },
+    {
+      "name": "isActive",
+      "type": "Boolean",
+      "required": false,
+      "enumValues": null,
+      "description": "Whether project is active"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

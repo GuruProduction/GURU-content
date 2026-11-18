@@ -1,0 +1,26 @@
+{
+  "slug": "recordscreen",
+  "name": "recordScreen",
+  "description": "Start or stop screen recording. Use start to begin recording, stop to save the recording.",
+  "category": "screen",
+  "parameters": [
+    {
+      "name": "action",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "start to begin recording, stop to save and return the file"
+    },
+    {
+      "name": "duration",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Duration in seconds for recording (only for start, default 30)"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

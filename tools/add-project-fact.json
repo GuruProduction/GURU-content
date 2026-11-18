@@ -1,0 +1,40 @@
+{
+  "slug": "add-project-fact",
+  "name": "add_project_fact",
+  "description": "Add a fact to a project knowledge base.",
+  "category": "project",
+  "parameters": [
+    {
+      "name": "projectId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The project ID"
+    },
+    {
+      "name": "category",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Fact category"
+    },
+    {
+      "name": "fact",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The fact content"
+    },
+    {
+      "name": "confidence",
+      "type": "Float",
+      "required": false,
+      "enumValues": null,
+      "description": "Confidence level (0.0 to 1.0)"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

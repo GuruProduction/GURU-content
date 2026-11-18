@@ -1,0 +1,19 @@
+{
+  "slug": "keyboardtypetext",
+  "name": "keyboardTypeText",
+  "description": "Type text into the currently focused input field. Use for filling forms, entering text, or automating text input anywhere on the device.",
+  "category": "keyboard",
+  "parameters": [
+    {
+      "name": "text",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Text to type"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

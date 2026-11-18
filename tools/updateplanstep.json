@@ -1,0 +1,33 @@
+{
+  "slug": "updateplanstep",
+  "name": "updatePlanStep",
+  "description": "Update a step in a plan. Mark steps as complete or in progress. The step number is 1-based (first step is 1). Use getActivePlans first to find the plan ID.",
+  "category": "planning",
+  "parameters": [
+    {
+      "name": "planId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The ID of the plan note to update"
+    },
+    {
+      "name": "stepIndex",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "The step number to update (1-based)"
+    },
+    {
+      "name": "status",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The new status: complete, in_progress, or pending"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

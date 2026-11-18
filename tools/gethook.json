@@ -1,0 +1,19 @@
+{
+  "slug": "gethook",
+  "name": "getHook",
+  "description": "Get detailed information about a specific hook.",
+  "category": "hook",
+  "parameters": [
+    {
+      "name": "name",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Hook name or ID"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

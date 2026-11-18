@@ -1,0 +1,11 @@
+{
+  "slug": "listprocesses",
+  "name": "listProcesses",
+  "description": "List running processes on the device. Uses shell ps command. Returns process IDs, names, and states.",
+  "category": "process",
+  "parameters": [],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

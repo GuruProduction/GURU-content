@@ -1,0 +1,19 @@
+{
+  "slug": "playringtone",
+  "name": "playRingtone",
+  "description": "Play a system ringtone, notification, or alarm sound.",
+  "category": "sound",
+  "parameters": [
+    {
+      "name": "type",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "alarm, notification, ringtone, or all"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

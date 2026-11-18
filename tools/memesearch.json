@@ -1,0 +1,19 @@
+{
+  "slug": "memesearch",
+  "name": "memeSearch",
+  "description": "Search for meme templates by name or use case. Returns template names and descriptions.",
+  "category": "media",
+  "parameters": [
+    {
+      "name": "query",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Search query - meme name or use case"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

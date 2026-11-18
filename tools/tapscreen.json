@@ -1,0 +1,26 @@
+{
+  "slug": "tapscreen",
+  "name": "tapScreen",
+  "description": "Tap at specific screen coordinates. Use this to press buttons, click UI elements, or interact with any on-screen content. Requires Accessibility Service to be enabled.",
+  "category": "device-control",
+  "parameters": [
+    {
+      "name": "x",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "X coordinate in pixels. Screen left edge is 0."
+    },
+    {
+      "name": "y",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "Y coordinate in pixels. Screen top edge is 0."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

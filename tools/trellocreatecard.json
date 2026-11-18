@@ -1,0 +1,33 @@
+{
+  "slug": "trellocreatecard",
+  "name": "trelloCreateCard",
+  "description": "Create a new Trello card in a list through Tor.",
+  "category": "productivity",
+  "parameters": [
+    {
+      "name": "listId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "List ID to add the card to"
+    },
+    {
+      "name": "name",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Card title"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Card description (optional)"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "webfetch",
+  "name": "webFetch",
+  "description": "Fetch the content of a web page through Tor. Returns the page title and text content. Use this to read articles, documentation, or any web page privately.",
+  "category": "web",
+  "parameters": [
+    {
+      "name": "url",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The URL to fetch"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

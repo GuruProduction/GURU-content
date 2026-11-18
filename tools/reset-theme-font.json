@@ -1,0 +1,19 @@
+{
+  "slug": "reset-theme-font",
+  "name": "reset_theme_font",
+  "description": "Reset a font back to its default.",
+  "category": "theme",
+  "parameters": [
+    {
+      "name": "context",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Which context to reset: app, guru, or user"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

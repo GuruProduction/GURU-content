@@ -1,0 +1,26 @@
+{
+  "slug": "sonosgroup",
+  "name": "sonosGroup",
+  "description": "Group or ungroup Sonos speakers for synchronized playback.",
+  "category": "smart-home",
+  "parameters": [
+    {
+      "name": "action",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Action: join, unjoin, party, or solo"
+    },
+    {
+      "name": "speaker",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Speaker name or IP address"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "deletejob",
+  "name": "deleteJob",
+  "description": "I delete a job completely. I remove it from my database and cancel its WorkManager schedule so it never fires again. When a job is gone, its execution history goes with it.",
+  "category": "job",
+  "parameters": [
+    {
+      "name": "name",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "I need the exact job name I used when I created it, or the UUID I returned from createJob. I try the name first, then the UUID. Either one works."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

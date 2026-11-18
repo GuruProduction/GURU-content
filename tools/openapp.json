@@ -1,0 +1,19 @@
+{
+  "slug": "openapp",
+  "name": "openApp",
+  "description": "Open an app by package name. Launches the app and waits for it to appear.",
+  "category": "device-control",
+  "parameters": [
+    {
+      "name": "packageName",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Package name of the app to open, e.g. com.android.settings for Settings"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

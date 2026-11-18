@@ -1,0 +1,40 @@
+{
+  "slug": "videosheet",
+  "name": "videoSheet",
+  "description": "Create a contact sheet (grid of frames) from a video. Useful for previewing video content.",
+  "category": "media",
+  "parameters": [
+    {
+      "name": "videoPath",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Path to the video file"
+    },
+    {
+      "name": "frames",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Number of frames to extract. Default 9."
+    },
+    {
+      "name": "columns",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Number of columns in the grid. Default 3."
+    },
+    {
+      "name": "outputName",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Output filename without extension. Default sheet."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "apply-layout-preset",
+  "name": "apply_layout_preset",
+  "description": "Apply a named layout preset.",
+  "category": "theme",
+  "parameters": [
+    {
+      "name": "presetName",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The preset name: default, compact, spacious, or dense"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

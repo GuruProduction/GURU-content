@@ -1,0 +1,26 @@
+{
+  "slug": "webbrowserinput",
+  "name": "webBrowserInput",
+  "description": "Type text into a form field on the loaded page by CSS selector.",
+  "category": "webview",
+  "parameters": [
+    {
+      "name": "selector",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "CSS selector"
+    },
+    {
+      "name": "text",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Text to type"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

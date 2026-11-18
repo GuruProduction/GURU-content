@@ -1,0 +1,68 @@
+{
+  "slug": "createthoughtcycle",
+  "name": "createThoughtCycle",
+  "description": "Create a thought cycle - a background reflection process for autonomous analysis, insights, and improvement.",
+  "category": "thought",
+  "parameters": [
+    {
+      "name": "name",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Cycle name"
+    },
+    {
+      "name": "displayName",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Display name"
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Description"
+    },
+    {
+      "name": "triggerType",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "SCHEDULED, EVENT, or THRESHOLD"
+    },
+    {
+      "name": "triggerConfig",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "JSON trigger config"
+    },
+    {
+      "name": "thoughtProcess",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "JSON array of thought steps"
+    },
+    {
+      "name": "outputType",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "INSIGHT, ACTION, MEMORY, or PROPOSAL"
+    },
+    {
+      "name": "outputConfig",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "JSON output config"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "searchallmemory",
+  "name": "searchAllMemory",
+  "description": "Search everything in your memory at once: messages, facts, and tool results. Returns every hit across all data. Use this when you need to find something anywhere in your memory.",
+  "category": "memory",
+  "parameters": [
+    {
+      "name": "query",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Search query text"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

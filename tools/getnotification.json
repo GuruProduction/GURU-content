@@ -1,0 +1,26 @@
+{
+  "slug": "getnotification",
+  "name": "getNotification",
+  "description": "Get details of a specific notification by package name and ID.",
+  "category": "notification",
+  "parameters": [
+    {
+      "name": "packageName",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Package name of the app that sent the notification"
+    },
+    {
+      "name": "notificationId",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "Notification ID"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

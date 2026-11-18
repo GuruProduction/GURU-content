@@ -1,0 +1,19 @@
+{
+  "slug": "clearappdata",
+  "name": "clearAppData",
+  "description": "Clear an app's data and cache.",
+  "category": "app",
+  "parameters": [
+    {
+      "name": "packageName",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Package name"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

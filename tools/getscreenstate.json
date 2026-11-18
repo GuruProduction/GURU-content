@@ -1,0 +1,11 @@
+{
+  "slug": "getscreenstate",
+  "name": "getScreenState",
+  "description": "Get current screen state: screen dimensions, accessibility service status, and basic info about what's visible.",
+  "category": "device-control",
+  "parameters": [],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

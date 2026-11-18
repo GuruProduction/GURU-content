@@ -1,0 +1,26 @@
+{
+  "slug": "rssfetch",
+  "name": "rssFetch",
+  "description": "Fetch and parse an RSS/Atom feed through Tor.",
+  "category": "web-services",
+  "parameters": [
+    {
+      "name": "url",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "RSS/Atom feed URL"
+    },
+    {
+      "name": "limit",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Maximum entries. Default 10."
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

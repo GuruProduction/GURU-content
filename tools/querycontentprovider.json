@@ -1,0 +1,54 @@
+{
+  "slug": "querycontentprovider",
+  "name": "queryContentProvider",
+  "description": "Query an Android content provider. Use for accessing contacts, calendar, media store, SMS, call logs.",
+  "category": "database",
+  "parameters": [
+    {
+      "name": "uri",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Content URI"
+    },
+    {
+      "name": "projection",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Columns, comma-separated"
+    },
+    {
+      "name": "selection",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "WHERE clause"
+    },
+    {
+      "name": "selectionArgs",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Selection args"
+    },
+    {
+      "name": "sortOrder",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "ORDER BY"
+    },
+    {
+      "name": "limit",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Max rows"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

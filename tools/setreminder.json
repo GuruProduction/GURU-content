@@ -1,0 +1,35 @@
+{
+  "slug": "setreminder",
+  "name": "setReminder",
+  "description": "Schedule a notification for a future time. Use this to remind your human about something at a specific time.",
+  "category": "communication",
+  "parameters": [
+    {
+      "name": "title",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The reminder title"
+    },
+    {
+      "name": "message",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "The reminder message"
+    },
+    {
+      "name": "triggerAtMillis",
+      "type": "Integer",
+      "required": true,
+      "enumValues": null,
+      "description": "When to trigger the reminder, in epoch milliseconds. Use formatDate to convert if needed."
+    }
+  ],
+  "permissions": [
+    "android.permission.POST_NOTIFICATIONS"
+  ],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

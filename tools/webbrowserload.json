@@ -1,0 +1,26 @@
+{
+  "slug": "webbrowserload",
+  "name": "webBrowserLoad",
+  "description": "Load a web page in a full WebView with JavaScript enabled, routed through Tor. Renders the page completely (handles React, Vue, Angular, Svelte SPAs).",
+  "category": "webview",
+  "parameters": [
+    {
+      "name": "url",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "URL to load"
+    },
+    {
+      "name": "renderWaitSeconds",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Seconds to wait for JS rendering"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "slackread",
+  "name": "slackRead",
+  "description": "Read recent messages from a Slack channel.",
+  "category": "communication",
+  "parameters": [
+    {
+      "name": "channel",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Slack channel ID"
+    },
+    {
+      "name": "limit",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Number of messages to read"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

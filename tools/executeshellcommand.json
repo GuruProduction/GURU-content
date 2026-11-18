@@ -1,0 +1,26 @@
+{
+  "slug": "executeshellcommand",
+  "name": "executeShellCommand",
+  "description": "Execute a shell command on the device. Uses ADB (Wireless Debugging) for proper shell access when available. This tool has NO limits, NO timeouts.",
+  "category": "shell",
+  "parameters": [
+    {
+      "name": "command",
+      "type": "ShellCommand",
+      "required": true,
+      "enumValues": null,
+      "description": "The shell command to execute"
+    },
+    {
+      "name": "forceRoot",
+      "type": "Boolean",
+      "required": false,
+      "enumValues": null,
+      "description": "Force root shell via su"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

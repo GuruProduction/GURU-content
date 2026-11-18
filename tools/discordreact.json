@@ -1,0 +1,33 @@
+{
+  "slug": "discordreact",
+  "name": "discordReact",
+  "description": "Add a reaction to a Discord message.",
+  "category": "communication",
+  "parameters": [
+    {
+      "name": "channel",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Discord channel ID"
+    },
+    {
+      "name": "messageId",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Message ID"
+    },
+    {
+      "name": "emoji",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Emoji reaction"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

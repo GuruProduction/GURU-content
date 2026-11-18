@@ -1,0 +1,33 @@
+{
+  "slug": "huesetroom",
+  "name": "hueSetRoom",
+  "description": "Control all lights in a Philips Hue room/zone.",
+  "category": "smart-home",
+  "parameters": [
+    {
+      "name": "room",
+      "type": "String",
+      "required": true,
+      "enumValues": null,
+      "description": "Room name or ID"
+    },
+    {
+      "name": "power",
+      "type": "String",
+      "required": false,
+      "enumValues": null,
+      "description": "Power state: on or off"
+    },
+    {
+      "name": "brightness",
+      "type": "Integer",
+      "required": false,
+      "enumValues": null,
+      "description": "Brightness level 0-100"
+    }
+  ],
+  "permissions": [],
+  "execution_location": "on-device",
+  "code": "",
+  "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}
