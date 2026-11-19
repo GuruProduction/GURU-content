@@ -1,5 +1,5 @@
 {
-  "bundle_version": "b65affce542ae",
+  "bundle_version": "bd800f4c4488b",
   "counts": {
     "prompts": 86,
     "skills": 1,
@@ -3962,11 +3962,11 @@
       },
       {
         "slug": "self-improvement-engine",
-        "name": "Self-Improvement Engine",
+        "name": "Self Improvement Engine",
         "file": "agents/self-improvement-engine.md",
         "version": null,
-        "sha256": "658de33812fe29c7e3d28791fca4e5b973f695e89fd8ffe53087d96f425fd2d1",
-        "bytes": 510
+        "sha256": "b0cbd0d1ce20d05ae58d2470e97112ee405af38cf706eaf7992e8a4892f89abd",
+        "bytes": 34730
       },
       {
         "slug": "sentinel",
@@ -4020,7 +4020,7 @@
       }
     ]
   },
-  "bundle_sha256": "65affce542ae9dd975d2f5b6e3c34e0930b5615fbf3a5f2a8bb45222412df64c",
+  "bundle_sha256": "d800f4c4488bfd79922c0c6a893fbba4cfe28ec55b279687c8d23381f8448d70",
   "items": [
     {
       "kind": "agents",
@@ -4116,7 +4116,7 @@
       "kind": "agents",
       "slug": "self-improvement-engine",
       "version": 1,
-      "sha256": "1d10d037e043a0fd62fae0da4d0906fb92e9ec6cc8da0a22a1a6dc7a6d2cd26b"
+      "sha256": "81b26f6bebe929055246dd87f84cf89eca25173e2dc02431c20e0ddf0ff99132"
     },
     {
       "kind": "agents",
@@ -7025,6 +7025,6 @@
   ],
   "algo": "ed25519",
   "key_id": "unus-lumen-feed-1",
-  "signed_material_sha256": "65affce542ae9dd975d2f5b6e3c34e0930b5615fbf3a5f2a8bb45222412df64c",
-  "generated_at": "2026-11-19T11:16:32.400Z"
+  "signed_material_sha256": "d800f4c4488bfd79922c0c6a893fbba4cfe28ec55b279687c8d23381f8448d70",
+  "generated_at": "2026-11-19T11:43:30.661Z"
 }
