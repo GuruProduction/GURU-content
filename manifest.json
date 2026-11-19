@@ -1,5 +1,5 @@
 {
-  "bundle_version": "b20da7dacbc55",
+  "bundle_version": "b6e4767b1adf8",
   "counts": {
     "prompts": 85,
     "skills": 1,
@@ -3885,8 +3885,8 @@
         "name": "Doctor",
         "file": "agents/doctor.md",
         "version": null,
-        "sha256": "1a4d89056434f28bcc4d856ab8866e72e862d64e155af32075c599cc19930df7",
-        "bytes": 459
+        "sha256": "ca32c4d473e96d45b61530bdb3defab8fccef845c195cd5697d0370c40480d96",
+        "bytes": 18658
       },
       {
         "slug": "fixer",
@@ -4012,7 +4012,7 @@
       }
     ]
   },
-  "bundle_sha256": "20da7dacbc55dcc381fefa5f2ac59f792b3fee998ad57b183ba1701427644a92",
+  "bundle_sha256": "6e4767b1adf864d789d86cc4cf3f45361becc16a1ef44ce5199179ad0a54c607",
   "items": [
     {
       "kind": "agents",
@@ -4054,7 +4054,7 @@
       "kind": "agents",
       "slug": "doctor",
       "version": 1,
-      "sha256": "c8664ea7ba5b4547fd2484819e3b489f2b1647e8b94bd0e02d9674b553b6465f"
+      "sha256": "0df3fa8e6dc69599989cbb2f5c7352f8d5959d095789607e9e9ced0f1ceed54e"
     },
     {
       "kind": "agents",
@@ -7011,6 +7011,6 @@
   ],
   "algo": "ed25519",
   "key_id": "unus-lumen-feed-1",
-  "signed_material_sha256": "20da7dacbc55dcc381fefa5f2ac59f792b3fee998ad57b183ba1701427644a92",
-  "generated_at": "2026-11-19T06:11:44.305Z"
+  "signed_material_sha256": "6e4767b1adf864d789d86cc4cf3f45361becc16a1ef44ce5199179ad0a54c607",
+  "generated_at": "2026-11-19T06:15:29.425Z"
 }
