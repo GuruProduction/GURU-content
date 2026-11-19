@@ -110,6 +110,9 @@ tool_permissions:
   - "notionSearch"
   - "notionGetPage"
   - "notionCreatePage"
+  - "askAssistant"
+  - "listTools"
+  - "searchAgents"
 builtin: true
 source: "builtin"
 author: "Unus Lumen"

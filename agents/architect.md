@@ -56,6 +56,9 @@ tool_permissions:
   - "githubIssueView"
   - "getAllTasks"
   - "createTask"
+  - "askAssistant"
+  - "listTools"
+  - "searchAgents"
 builtin: true
 source: "builtin"
 author: "Unus Lumen"

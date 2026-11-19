@@ -1,5 +1,5 @@
 {
-  "bundle_version": "b4ae084dba49f",
+  "bundle_version": "be624fc53ab36",
   "counts": {
     "prompts": 86,
     "skills": 1,
@@ -3845,8 +3845,8 @@
         "name": "Architect",
         "file": "agents/architect.md",
         "version": null,
-        "sha256": "b729693081e0ba29fbbfd52243fb6b85f0ecb5af4e7e618d5851a47993ae9b6c",
-        "bytes": 13595
+        "sha256": "0138c5ff1b669ea00fc86f206aabb7304a6cfd66ec9f26767726a2f9e03caf20",
+        "bytes": 13649
       },
       {
         "slug": "archivist",
@@ -3861,24 +3861,24 @@
         "name": "Code Engineer",
         "file": "agents/code-engineer.md",
         "version": null,
-        "sha256": "ef2be34d42cfc6deadfc3371007f7978395c9908bdabfd85517597666e900f9f",
-        "bytes": 10420
+        "sha256": "5cc31e64a2263fb5b5bb0c6036e8dee3f4b004344e58be76c5ab189f63ab0363",
+        "bytes": 10474
       },
       {
         "slug": "concierge",
         "name": "Concierge",
         "file": "agents/concierge.md",
         "version": null,
-        "sha256": "a946d2be5186abacc99be5bc5363bf2eec72c545000b55d8e959a42b669e6dcc",
-        "bytes": 12486
+        "sha256": "4afd60d29fc9a586fc923105f77727f732644684476ab7128217564fc3bfe359",
+        "bytes": 12540
       },
       {
         "slug": "deep-thinker",
         "name": "Deep Thinker",
         "file": "agents/deep-thinker.md",
         "version": null,
-        "sha256": "c64e38d17404015b57a15d288061c5efd637394db053dcfdf4e704404e9b4cf1",
-        "bytes": 13575
+        "sha256": "b334e0435b453831106ceed49945f7057566b3fbf6a2ff72ed90d55ff0248939",
+        "bytes": 13629
       },
       {
         "slug": "director",
@@ -3893,8 +3893,8 @@
         "name": "Doctor",
         "file": "agents/doctor.md",
         "version": null,
-        "sha256": "540a49bf76153c746459ab4f21252228aeee613a3c103c1e4b012fc6cd7fc569",
-        "bytes": 18809
+        "sha256": "619ec4e2298a879c9f213bca429590d3d426ded4dd71d1b5f6472c71fe027899",
+        "bytes": 18863
       },
       {
         "slug": "fixer",
@@ -3925,8 +3925,8 @@
         "name": "Grafter",
         "file": "agents/grafter.md",
         "version": null,
-        "sha256": "e26661054205d5e82bc10c91a01bd20a12631d9cbd2e7f34feea6d5582193eba",
-        "bytes": 35632
+        "sha256": "77526e94615d84584208a95987d63de18fb33d339af6fb3a1e53c7d65c768924",
+        "bytes": 20234
       },
       {
         "slug": "mechanic",
@@ -3949,8 +3949,8 @@
         "name": "Research Guru",
         "file": "agents/research-guru.md",
         "version": null,
-        "sha256": "d46ff0263186321e234a56dbf41e54c93f0bb2f2530c363f05b93ce81c1c234b",
-        "bytes": 18215
+        "sha256": "c4102e99832f3fe06457bcab9ff9ebc51bf872f6dc00ff131b1c82c12a55ce83",
+        "bytes": 18269
       },
       {
         "slug": "seer",
@@ -3973,8 +3973,8 @@
         "name": "Sentinel",
         "file": "agents/sentinel.md",
         "version": null,
-        "sha256": "17e29828567038a2779d65bc84b4163f36e4253e0f20fed987e617d1ba8ea0d6",
-        "bytes": 21550
+        "sha256": "a6d66240b63248402a6bfbcfbecaf30bbd8e65adeb8ad9d9d26b88476499ded8",
+        "bytes": 21604
       },
       {
         "slug": "signal",
@@ -4005,8 +4005,8 @@
         "name": "Wingman",
         "file": "agents/wingman.md",
         "version": null,
-        "sha256": "543719b02f489b55ef97c6527f51110320fe1a576e299c7dbcc86488277bbd18",
-        "bytes": 16451
+        "sha256": "31e181073e12e5915399eb16329f44fd6f147b285fded01d51437cd175ac77d6",
+        "bytes": 16505
       }
     ],
     "packs": [
@@ -4020,13 +4020,13 @@
       }
     ]
   },
-  "bundle_sha256": "4ae084dba49fbeeaeae5759bebaaeb41aafd4c732a73aeb3bbeca12be73f98ac",
+  "bundle_sha256": "e624fc53ab36f0719b089df96aa272831fb1325a461329d2d5c1dd7568905f86",
   "items": [
     {
       "kind": "agents",
       "slug": "architect",
       "version": 1,
-      "sha256": "a52ed245ab9f9997b85ef93b3bf7717356da83f3ca401957c4f1373e8263d8e6"
+      "sha256": "6b357d1769655d7f6f4ad8b19d8b135b7a1f046e65109b288558e2a5bbf77430"
     },
     {
       "kind": "agents",
@@ -4038,19 +4038,19 @@
       "kind": "agents",
       "slug": "code-engineer",
       "version": 1,
-      "sha256": "e7829da18185cb06929bf531c4c6fd232d9b6a3a383a818efdbc432e1d43efbf"
+      "sha256": "c69384e6d3ac672ffad1aaf8270d73f659d1243f4582e761516fc18834a2adba"
     },
     {
       "kind": "agents",
       "slug": "concierge",
       "version": 1,
-      "sha256": "1fa56616d0e22199f2ec0a835669583cddd8bd7a9b25f0d02c0eb483f454f961"
+      "sha256": "49598518bcf7d0ef90e5b793db79bed76483ec77fc8bda07317c51ee055e3b39"
     },
     {
       "kind": "agents",
       "slug": "deep-thinker",
       "version": 1,
-      "sha256": "8b82cd2465edcfe2a6f23590b32b43051106325f3c061d631be8612de3a3326c"
+      "sha256": "d16836f345d831912211352d9c40d239f7eb349b0bdf185556e9092677ea8f44"
     },
     {
       "kind": "agents",
@@ -4062,7 +4062,7 @@
       "kind": "agents",
       "slug": "doctor",
       "version": 1,
-      "sha256": "bc63fee6e6bd6d3249e973939b1f8b1b5590014b9379fabfd9eec954c49dd200"
+      "sha256": "fc5386593994874b81d6b59b92aed26291e36674693a7c2486618caffd0812b4"
     },
     {
       "kind": "agents",
@@ -4086,7 +4086,7 @@
       "kind": "agents",
       "slug": "grafter",
       "version": 1,
-      "sha256": "d4a2ad2634a8a0ba75454880a5de8202a96717cf3dfc0a3a0483f97a3c9a0551"
+      "sha256": "6e186ca0157acd11d2e93610dc1c520f17b876d346cb4ce1d8d6a8c0968faf59"
     },
     {
       "kind": "agents",
@@ -4104,7 +4104,7 @@
       "kind": "agents",
       "slug": "research-guru",
       "version": 1,
-      "sha256": "58649fc0e873f6656b86831b460b5efea6f04e9cc63a568f0c93a5600f6f3947"
+      "sha256": "b90c4d80d739812140e31dcb7c5d72b6e4e4c877e434521d6fcddc7f9292f42a"
     },
     {
       "kind": "agents",
@@ -4122,7 +4122,7 @@
       "kind": "agents",
       "slug": "sentinel",
       "version": 1,
-      "sha256": "dc16828a6c7cb73a015a481fcc719a4519a636ac013edeb0ae9fc95c4364ab32"
+      "sha256": "03c9cdd2318bdbeadf1b2797cb05b9227127e9327eb80a8adc5f4d540aac4e92"
     },
     {
       "kind": "agents",
@@ -4146,7 +4146,7 @@
       "kind": "agents",
       "slug": "wingman",
       "version": 1,
-      "sha256": "c4305d5a894a78cfe612e4f216f02e69ee635015d1d6bc432b413e43fd5eb41c"
+      "sha256": "7a91322f55f783ca8bfe5fb70fdc7e25c6c1b7a97b2721450d426989595ef207"
     },
     {
       "kind": "packs",
@@ -7025,6 +7025,6 @@
   ],
   "algo": "ed25519",
   "key_id": "unus-lumen-feed-1",
-  "signed_material_sha256": "4ae084dba49fbeeaeae5759bebaaeb41aafd4c732a73aeb3bbeca12be73f98ac",
-  "generated_at": "2026-11-19T10:51:58.268Z"
+  "signed_material_sha256": "e624fc53ab36f0719b089df96aa272831fb1325a461329d2d5c1dd7568905f86",
+  "generated_at": "2026-11-19T10:57:19.866Z"
 }

@@ -82,6 +82,9 @@ tool_permissions:
   - "getAllTasks"
   - "createTask"
   - "searchTasks"
+  - "askAssistant"
+  - "listTools"
+  - "searchAgents"
 builtin: true
 source: "builtin"
 author: "Unus Lumen"

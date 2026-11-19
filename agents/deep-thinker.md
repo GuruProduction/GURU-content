@@ -79,6 +79,9 @@ tool_permissions:
   - "askUser"
   - "sendNotification"
   - "formatDate"
+  - "askAssistant"
+  - "listTools"
+  - "searchAgents"
 builtin: true
 source: "builtin"
 author: "Unus Lumen"
