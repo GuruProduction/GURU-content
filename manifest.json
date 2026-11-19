@@ -1,5 +1,5 @@
 {
-  "bundle_version": "b9fdec3314ba2",
+  "bundle_version": "bac173aea6de0",
   "counts": {
     "prompts": 85,
     "skills": 1,
@@ -3997,8 +3997,8 @@
         "name": "Wingman",
         "file": "agents/wingman.md",
         "version": null,
-        "sha256": "a991ec9ba898033a5c2143b5a1ba0e428e9db27542f439766871c42277f0e1c8",
-        "bytes": 453
+        "sha256": "8cb9c78f1285fa65916af58409b96ec44916bdbe2108917d69d049e824467ad0",
+        "bytes": 16220
       }
     ],
     "packs": [
@@ -4012,7 +4012,7 @@
       }
     ]
   },
-  "bundle_sha256": "9fdec3314ba2aa6adfd7d1fdac1fc33b234fe5a588c6b81b6682a6b7ab12ffd4",
+  "bundle_sha256": "ac173aea6de084034d0d19ed50a8cd13eb6e4b9c22c810ab445b7a8465b626ca",
   "items": [
     {
       "kind": "agents",
@@ -4138,7 +4138,7 @@
       "kind": "agents",
       "slug": "wingman",
       "version": 1,
-      "sha256": "8104267a2ff83a5acf3b2c66462b87c87713178e09c6da91c106ad36d6b2faa2"
+      "sha256": "b105842250f49484352f64ec8c18b32cd8b0b1a72c4571b9e8b44b6054019d56"
     },
     {
       "kind": "packs",
@@ -7011,6 +7011,6 @@
   ],
   "algo": "ed25519",
   "key_id": "unus-lumen-feed-1",
-  "signed_material_sha256": "9fdec3314ba2aa6adfd7d1fdac1fc33b234fe5a588c6b81b6682a6b7ab12ffd4",
-  "generated_at": "2026-11-19T06:01:34.884Z"
+  "signed_material_sha256": "ac173aea6de084034d0d19ed50a8cd13eb6e4b9c22c810ab445b7a8465b626ca",
+  "generated_at": "2026-11-19T06:05:07.908Z"
 }
