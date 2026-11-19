@@ -1,5 +1,5 @@
 {
-  "bundle_version": "bb543ce3d5369",
+  "bundle_version": "be1ef1b7513b2",
   "counts": {
     "prompts": 85,
     "skills": 1,
@@ -3917,8 +3917,8 @@
         "name": "Grafter",
         "file": "agents/grafter.md",
         "version": null,
-        "sha256": "f81ac8d496a0b32764766b556c1ea6e277d66240efb8f852eabfcbc4507ad529",
-        "bytes": 459
+        "sha256": "b23517d0ddd750d1dc6afec25d3ec75986d19538f83c99180d893daf06f4c9e7",
+        "bytes": 20162
       },
       {
         "slug": "mechanic",
@@ -4012,7 +4012,7 @@
       }
     ]
   },
-  "bundle_sha256": "b543ce3d536952ac33687e457bd37af8efb88bd51ba638306544c81ada989f4d",
+  "bundle_sha256": "e1ef1b7513b25ea412596eccba6f91594e5fb4906575c05de15e65391f70945f",
   "items": [
     {
       "kind": "agents",
@@ -4078,7 +4078,7 @@
       "kind": "agents",
       "slug": "grafter",
       "version": 1,
-      "sha256": "c4f4721668ba91926d03ce3877792b1d627703fc6b967636fe11dee73bb7f556"
+      "sha256": "df4baa27ce790a79a4bd6d529cca32ea6f5de82f8e5893bc3452cfb4ec8ad0d1"
     },
     {
       "kind": "agents",
@@ -7011,6 +7011,6 @@
   ],
   "algo": "ed25519",
   "key_id": "unus-lumen-feed-1",
-  "signed_material_sha256": "b543ce3d536952ac33687e457bd37af8efb88bd51ba638306544c81ada989f4d",
-  "generated_at": "2026-11-19T06:43:31.247Z"
+  "signed_material_sha256": "e1ef1b7513b25ea412596eccba6f91594e5fb4906575c05de15e65391f70945f",
+  "generated_at": "2026-11-19T06:47:38.413Z"
 }
