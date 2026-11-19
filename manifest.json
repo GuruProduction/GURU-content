@@ -1,12 +1,12 @@
 {
-  "bundle_version": "b2814bb690268",
+  "bundle_version": "b4ae084dba49f",
   "counts": {
-    "prompts": 85,
+    "prompts": 86,
     "skills": 1,
     "tools": 391,
     "agents": 21,
     "packs": 1,
-    "total": 499
+    "total": 500
   },
   "kinds": {
     "prompts": [
@@ -65,6 +65,14 @@
         "version": 1,
         "sha256": "5f3188c888a78c939a71557269faa2dc6d3dd1a39d7db430357dc572ecc841da",
         "bytes": 1794
+      },
+      {
+        "slug": "guru-agents",
+        "name": "Agents and the swarm",
+        "file": "prompts/guru-agents.md",
+        "version": 1,
+        "sha256": "4d47b8db56b4cce689f616fd01865a3196c96f0cca6faadec7f64b0583375a90",
+        "bytes": 8083
       },
       {
         "slug": "guru-analytical-memory",
@@ -4012,7 +4020,7 @@
       }
     ]
   },
-  "bundle_sha256": "2814bb69026855505af52fa340fa2171530d10bd2247c1dcb559bb111fc78468",
+  "bundle_sha256": "4ae084dba49fbeeaeae5759bebaaeb41aafd4c732a73aeb3bbeca12be73f98ac",
   "items": [
     {
       "kind": "agents",
@@ -4187,6 +4195,12 @@
       "slug": "guru-actions",
       "version": 1,
       "sha256": "b7a625372d3ab0193e725f846d88d20f7021448b1ba329bf6cd5b2a6be4ae6f3"
+    },
+    {
+      "kind": "prompts",
+      "slug": "guru-agents",
+      "version": 1,
+      "sha256": "173de633d012ac2253cf7c1dc303b4d34de9fe111b2c85ad41c5fa908c78f32e"
     },
     {
       "kind": "prompts",
@@ -7011,6 +7025,6 @@
   ],
   "algo": "ed25519",
   "key_id": "unus-lumen-feed-1",
-  "signed_material_sha256": "2814bb69026855505af52fa340fa2171530d10bd2247c1dcb559bb111fc78468",
-  "generated_at": "2026-11-19T10:50:13.444Z"
+  "signed_material_sha256": "4ae084dba49fbeeaeae5759bebaaeb41aafd4c732a73aeb3bbeca12be73f98ac",
+  "generated_at": "2026-11-19T10:51:58.268Z"
 }
