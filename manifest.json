@@ -1,5 +1,5 @@
 {
-  "bundle_version": "bb0d9579620d3",
+  "bundle_version": "b9fdec3314ba2",
   "counts": {
     "prompts": 85,
     "skills": 1,
@@ -3965,8 +3965,8 @@
         "name": "Sentinel",
         "file": "agents/sentinel.md",
         "version": null,
-        "sha256": "f4c65741489693340a9e04d3228d2d9a76ad70c75c9663a519462a1f76799369",
-        "bytes": 482
+        "sha256": "83ab87d48824353d1df27575c2fd0bc231aa1cdde519ca652cd60286870b9c6a",
+        "bytes": 21293
       },
       {
         "slug": "signal",
@@ -4012,7 +4012,7 @@
       }
     ]
   },
-  "bundle_sha256": "b0d9579620d3c130b1eaa9ed181a3ea6f5e88254374e3019ac888c026db16080",
+  "bundle_sha256": "9fdec3314ba2aa6adfd7d1fdac1fc33b234fe5a588c6b81b6682a6b7ab12ffd4",
   "items": [
     {
       "kind": "agents",
@@ -4114,7 +4114,7 @@
       "kind": "agents",
       "slug": "sentinel",
       "version": 1,
-      "sha256": "d96e76c6a81c1a5ac07bdc3b559699aa734c81f8ffd2cc78a387596fdd4f3d81"
+      "sha256": "934a39d602ebffc7e236ff74f60bbecdb9461f54938c4d65359fba87587dabf4"
     },
     {
       "kind": "agents",
@@ -7011,6 +7011,6 @@
   ],
   "algo": "ed25519",
   "key_id": "unus-lumen-feed-1",
-  "signed_material_sha256": "b0d9579620d3c130b1eaa9ed181a3ea6f5e88254374e3019ac888c026db16080",
-  "generated_at": "2026-11-18T16:59:51.467Z"
+  "signed_material_sha256": "9fdec3314ba2aa6adfd7d1fdac1fc33b234fe5a588c6b81b6682a6b7ab12ffd4",
+  "generated_at": "2026-11-19T06:01:34.884Z"
 }
