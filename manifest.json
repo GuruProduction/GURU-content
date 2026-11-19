@@ -1,5 +1,5 @@
 {
-  "bundle_version": "be624fc53ab36",
+  "bundle_version": "b65affce542ae",
   "counts": {
     "prompts": 86,
     "skills": 1,
@@ -3853,8 +3853,8 @@
         "name": "Archivist",
         "file": "agents/archivist.md",
         "version": null,
-        "sha256": "ac20a4142633c407ddc7a0f9a95e9da0f690555ee49c78bcf45f8aa81a338171",
-        "bytes": 511
+        "sha256": "6c9058fd8b03f19ec9f388356ed7c9c4c36030ff31b86738c2d3983678a549f8",
+        "bytes": 33953
       },
       {
         "slug": "code-engineer",
@@ -4020,7 +4020,7 @@
       }
     ]
   },
-  "bundle_sha256": "e624fc53ab36f0719b089df96aa272831fb1325a461329d2d5c1dd7568905f86",
+  "bundle_sha256": "65affce542ae9dd975d2f5b6e3c34e0930b5615fbf3a5f2a8bb45222412df64c",
   "items": [
     {
       "kind": "agents",
@@ -4032,7 +4032,7 @@
       "kind": "agents",
       "slug": "archivist",
       "version": 1,
-      "sha256": "3ac001e4d1146eff7dba9d8bfa23a75a54990de82a08877d4e1b4705d01fce5b"
+      "sha256": "06c6291f6c13109cc720cb4280c8c3d706732bff555227dca37a90fe831e708e"
     },
     {
       "kind": "agents",
@@ -7025,6 +7025,6 @@
   ],
   "algo": "ed25519",
   "key_id": "unus-lumen-feed-1",
-  "signed_material_sha256": "e624fc53ab36f0719b089df96aa272831fb1325a461329d2d5c1dd7568905f86",
-  "generated_at": "2026-11-19T10:57:19.866Z"
+  "signed_material_sha256": "65affce542ae9dd975d2f5b6e3c34e0930b5615fbf3a5f2a8bb45222412df64c",
+  "generated_at": "2026-11-19T11:16:32.400Z"
 }
