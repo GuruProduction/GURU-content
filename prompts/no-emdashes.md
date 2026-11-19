@@ -2,7 +2,7 @@
 kind: "prompt"
 slug: "no-emdashes"
 name: "(NEW)no emdashes"
-category: "style"
+category: "other"
 delivery: "always"
 keywords:
   - "."

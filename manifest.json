@@ -1,5 +1,5 @@
 {
-  "bundle_version": "b77dd5e8277c1",
+  "bundle_version": "b2265a7852471",
   "counts": {
     "prompts": 86,
     "skills": 1,
@@ -70,9 +70,9 @@
         "slug": "guru-agents",
         "name": "Agents and the swarm",
         "file": "prompts/guru-agents.md",
-        "version": 1,
-        "sha256": "4d47b8db56b4cce689f616fd01865a3196c96f0cca6faadec7f64b0583375a90",
-        "bytes": 8083
+        "version": 2,
+        "sha256": "a72b3394cdc2b80fbd84ee258452dd897c99c9dff320c726065e719a54fe5774",
+        "bytes": 8086
       },
       {
         "slug": "guru-analytical-memory",
@@ -519,7 +519,7 @@
         "name": "(NEW)no emdashes",
         "file": "prompts/no-emdashes.md",
         "version": 6,
-        "sha256": "e405a5a92b2a6239213b06baefe7defae56a0f0b7d2ebdbffb6de8595c064b5f",
+        "sha256": "89a87dd3bae61e81b45ae308c6234933ec487976941b631ef92aa61e27385dcf",
         "bytes": 318
       },
       {
@@ -4020,7 +4020,7 @@
       }
     ]
   },
-  "bundle_sha256": "77dd5e8277c18e92f70b9bce3c3b832c22116375b4705dd003c9b0c885afba09",
+  "bundle_sha256": "2265a7852471f6d427b19ec845acd2df43646120705419d159023badfb624363",
   "items": [
     {
       "kind": "agents",
@@ -4199,8 +4199,8 @@
     {
       "kind": "prompts",
       "slug": "guru-agents",
-      "version": 1,
-      "sha256": "173de633d012ac2253cf7c1dc303b4d34de9fe111b2c85ad41c5fa908c78f32e"
+      "version": 2,
+      "sha256": "8c1cdf646dab36eaea4b899ccb347da6f648e69b45d6cd44054a6c270eb33f29"
     },
     {
       "kind": "prompts",
@@ -4536,7 +4536,7 @@
       "kind": "prompts",
       "slug": "no-emdashes",
       "version": 6,
-      "sha256": "b4e8196daf716b2b87dc8674ad6dece26e5c43a09c676cee2b61e0604c94b234"
+      "sha256": "4ebd9fa25d66eb347e256ac18063863b316f3d2bcc9b6c65c0248d00ab7e1944"
     },
     {
       "kind": "prompts",
@@ -7025,6 +7025,6 @@
   ],
   "algo": "ed25519",
   "key_id": "unus-lumen-feed-1",
-  "signed_material_sha256": "77dd5e8277c18e92f70b9bce3c3b832c22116375b4705dd003c9b0c885afba09",
-  "generated_at": "2026-11-19T12:35:04.028Z"
+  "signed_material_sha256": "2265a7852471f6d427b19ec845acd2df43646120705419d159023badfb624363",
+  "generated_at": "2026-11-19T12:54:48.161Z"
 }
