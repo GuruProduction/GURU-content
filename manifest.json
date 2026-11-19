@@ -1,5 +1,5 @@
 {
-  "bundle_version": "bac173aea6de0",
+  "bundle_version": "b20da7dacbc55",
   "counts": {
     "prompts": 85,
     "skills": 1,
@@ -3941,8 +3941,8 @@
         "name": "Research Guru",
         "file": "agents/research-guru.md",
         "version": null,
-        "sha256": "9c7ca99773f6cf86e7925c4cb2f04b309db26dcda1b5163979de66e024612d2c",
-        "bytes": 494
+        "sha256": "d46ff0263186321e234a56dbf41e54c93f0bb2f2530c363f05b93ce81c1c234b",
+        "bytes": 18215
       },
       {
         "slug": "seer",
@@ -4012,7 +4012,7 @@
       }
     ]
   },
-  "bundle_sha256": "ac173aea6de084034d0d19ed50a8cd13eb6e4b9c22c810ab445b7a8465b626ca",
+  "bundle_sha256": "20da7dacbc55dcc381fefa5f2ac59f792b3fee998ad57b183ba1701427644a92",
   "items": [
     {
       "kind": "agents",
@@ -4096,7 +4096,7 @@
       "kind": "agents",
       "slug": "research-guru",
       "version": 1,
-      "sha256": "22a2c450a099c646ffce3765058572a25d82581752d4f0ce20d08006f21018a6"
+      "sha256": "58649fc0e873f6656b86831b460b5efea6f04e9cc63a568f0c93a5600f6f3947"
     },
     {
       "kind": "agents",
@@ -7011,6 +7011,6 @@
   ],
   "algo": "ed25519",
   "key_id": "unus-lumen-feed-1",
-  "signed_material_sha256": "ac173aea6de084034d0d19ed50a8cd13eb6e4b9c22c810ab445b7a8465b626ca",
-  "generated_at": "2026-11-19T06:05:07.908Z"
+  "signed_material_sha256": "20da7dacbc55dcc381fefa5f2ac59f792b3fee998ad57b183ba1701427644a92",
+  "generated_at": "2026-11-19T06:11:44.305Z"
 }
