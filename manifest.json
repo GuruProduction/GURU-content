@@ -1,5 +1,5 @@
 {
-  "bundle_version": "b6e4767b1adf8",
+  "bundle_version": "b27138d0ae28f",
   "counts": {
     "prompts": 85,
     "skills": 1,
@@ -3869,8 +3869,8 @@
         "name": "Deep Thinker",
         "file": "agents/deep-thinker.md",
         "version": null,
-        "sha256": "962b137eab82434a50373892a8649e7ff8660d6f294d9bbc894c69f3ab5f5d20",
-        "bytes": 506
+        "sha256": "c64e38d17404015b57a15d288061c5efd637394db053dcfdf4e704404e9b4cf1",
+        "bytes": 13575
       },
       {
         "slug": "director",
@@ -4012,7 +4012,7 @@
       }
     ]
   },
-  "bundle_sha256": "6e4767b1adf864d789d86cc4cf3f45361becc16a1ef44ce5199179ad0a54c607",
+  "bundle_sha256": "27138d0ae28fd38a0905ac44ea5994777996a48cad4e3b1ec70e9ea7f05777d7",
   "items": [
     {
       "kind": "agents",
@@ -4042,7 +4042,7 @@
       "kind": "agents",
       "slug": "deep-thinker",
       "version": 1,
-      "sha256": "73b5091932ec0cfc6ef99a5e8f9788db91d68dfb875073bc5586450ca80d7df5"
+      "sha256": "8b82cd2465edcfe2a6f23590b32b43051106325f3c061d631be8612de3a3326c"
     },
     {
       "kind": "agents",
@@ -7011,6 +7011,6 @@
   ],
   "algo": "ed25519",
   "key_id": "unus-lumen-feed-1",
-  "signed_material_sha256": "6e4767b1adf864d789d86cc4cf3f45361becc16a1ef44ce5199179ad0a54c607",
-  "generated_at": "2026-11-19T06:15:29.425Z"
+  "signed_material_sha256": "27138d0ae28fd38a0905ac44ea5994777996a48cad4e3b1ec70e9ea7f05777d7",
+  "generated_at": "2026-11-19T06:37:45.521Z"
 }
