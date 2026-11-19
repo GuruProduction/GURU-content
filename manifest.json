@@ -1,5 +1,5 @@
 {
-  "bundle_version": "bbf36d939cf6e",
+  "bundle_version": "b77dd5e8277c1",
   "counts": {
     "prompts": 86,
     "skills": 1,
@@ -3957,8 +3957,8 @@
         "name": "Seer",
         "file": "agents/seer.md",
         "version": null,
-        "sha256": "91c601806af684262c6f8cffdc4cebc3e3cb7e9ce2063c11c49a873f04e2b27e",
-        "bytes": 458
+        "sha256": "bf2a5a5402fd864403b13e27461c0ca16c58cbb72f32fc7dd7bbbf47fe6dc55b",
+        "bytes": 34702
       },
       {
         "slug": "self-improvement-engine",
@@ -4020,7 +4020,7 @@
       }
     ]
   },
-  "bundle_sha256": "bf36d939cf6e5996d9c17dc8bc674f327b82d84d95e3d44414b383a2d61a0485",
+  "bundle_sha256": "77dd5e8277c18e92f70b9bce3c3b832c22116375b4705dd003c9b0c885afba09",
   "items": [
     {
       "kind": "agents",
@@ -4110,7 +4110,7 @@
       "kind": "agents",
       "slug": "seer",
       "version": 1,
-      "sha256": "b2ec89adf0c62c9c6bc831f01baec7d85c0d530623a57af88433912de21dccb1"
+      "sha256": "12638f95fc6c3039613bb9a1a89efa197c5105776c673c563edf92ee4483ec4f"
     },
     {
       "kind": "agents",
@@ -7025,6 +7025,6 @@
   ],
   "algo": "ed25519",
   "key_id": "unus-lumen-feed-1",
-  "signed_material_sha256": "bf36d939cf6e5996d9c17dc8bc674f327b82d84d95e3d44414b383a2d61a0485",
-  "generated_at": "2026-11-19T11:55:20.968Z"
+  "signed_material_sha256": "77dd5e8277c18e92f70b9bce3c3b832c22116375b4705dd003c9b0c885afba09",
+  "generated_at": "2026-11-19T12:35:04.028Z"
 }
