@@ -1,5 +1,5 @@
 {
-  "bundle_version": "bd800f4c4488b",
+  "bundle_version": "bbf36d939cf6e",
   "counts": {
     "prompts": 86,
     "skills": 1,
@@ -3997,8 +3997,8 @@
         "name": "Vault",
         "file": "agents/vault.md",
         "version": null,
-        "sha256": "4c7ccfd8d715423f0fc94fa9506fd1299105df327b22be9ab5121939475dba52",
-        "bytes": 472
+        "sha256": "67af194895fb98c3f6e52e755381837830b033f0aa8f8c47cbe48bc5d7d74402",
+        "bytes": 29141
       },
       {
         "slug": "wingman",
@@ -4020,7 +4020,7 @@
       }
     ]
   },
-  "bundle_sha256": "d800f4c4488bfd79922c0c6a893fbba4cfe28ec55b279687c8d23381f8448d70",
+  "bundle_sha256": "bf36d939cf6e5996d9c17dc8bc674f327b82d84d95e3d44414b383a2d61a0485",
   "items": [
     {
       "kind": "agents",
@@ -4140,7 +4140,7 @@
       "kind": "agents",
       "slug": "vault",
       "version": 1,
-      "sha256": "d15fbcaab1eb2ebc5ea2c207ff01e6100bf81d9ce176d3a5632453d91e5065b0"
+      "sha256": "d111897e27c0cbe35257fc0b103a19702f9b141db753b4898e2b0b8d9b92e717"
     },
     {
       "kind": "agents",
@@ -7025,6 +7025,6 @@
   ],
   "algo": "ed25519",
   "key_id": "unus-lumen-feed-1",
-  "signed_material_sha256": "d800f4c4488bfd79922c0c6a893fbba4cfe28ec55b279687c8d23381f8448d70",
-  "generated_at": "2026-11-19T11:43:30.661Z"
+  "signed_material_sha256": "bf36d939cf6e5996d9c17dc8bc674f327b82d84d95e3d44414b383a2d61a0485",
+  "generated_at": "2026-11-19T11:55:20.968Z"
 }
